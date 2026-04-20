@@ -1,0 +1,39 @@
+[0.636s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/simulation': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/simulation/build --no-deps symlink_data
+[0.894s] running develop
+[1.048s] running egg_info
+[1.048s] creating simulation.egg-info
+[1.048s] writing simulation.egg-info/PKG-INFO
+[1.049s] writing dependency_links to simulation.egg-info/dependency_links.txt
+[1.049s] writing entry points to simulation.egg-info/entry_points.txt
+[1.049s] writing requirements to simulation.egg-info/requires.txt
+[1.049s] writing top-level names to simulation.egg-info/top_level.txt
+[1.049s] writing manifest file 'simulation.egg-info/SOURCES.txt'
+[1.053s] reading manifest file 'simulation.egg-info/SOURCES.txt'
+[1.053s] writing manifest file 'simulation.egg-info/SOURCES.txt'
+[1.054s] running build_ext
+[1.055s] Creating /home/chienle/Desktop/skid_robot_v2/install/simulation/lib/python3.10/site-packages/simulation.egg-link (link to .)
+[1.055s] 
+[1.055s] Installed /home/chienle/Desktop/skid_robot_v2/build/simulation
+[1.055s] running symlink_data
+[1.056s] creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/ament_index
+[1.056s] creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/ament_index/resource_index
+[1.056s] creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/ament_index/resource_index/packages
+[1.056s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/resource/simulation -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/ament_index/resource_index/packages
+[1.056s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/package.xml -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation
+[1.056s] creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/launch
+[1.056s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/launch/launch.py -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/launch
+[1.056s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/launch/gz_skid_launch.py -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/launch
+[1.056s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/launch/gz_simulator_launch.py -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/launch
+[1.056s] creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/urdf
+[1.056s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/urdf/skid_robot_v3.urdf -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/urdf
+[1.056s] creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes
+[1.056s] creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.056s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/wheel_front_left.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.057s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/base_link.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.057s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/imu.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.057s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/basefoot_link.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.057s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/wheel_front_right.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.057s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/wheel_back_left.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.057s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/wheel_back_right.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.057s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/lidar.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+[1.085s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/simulation' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/simulation/build --no-deps symlink_data

@@ -1,0 +1,44 @@
+running develop
+running egg_info
+creating microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info
+writing microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/PKG-INFO
+writing dependency_links to microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/dependency_links.txt
+writing requirements to microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/requires.txt
+writing top-level names to microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/top_level.txt
+writing manifest file 'microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/SOURCES.txt'
+reading manifest file 'microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/SOURCES.txt'
+writing manifest file 'microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain-inertial-rqt.egg-link (link to microstrain_inertial_rqt_common/src)
+
+Installed /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/src
+running symlink_data
+creating /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/ament_index
+creating /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/ament_index/resource_index
+creating /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/ament_index/resource_index/packages
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/resource/microstrain_inertial_rqt -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/ament_index/resource_index/packages
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/package.xml -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/launch/quickview_launch.py -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt
+creating /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/plugin.xml -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common
+creating /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/FilterData.ui -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/GQ7LED.ui -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/RTKStatus.ui -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/DeviceSelector.ui -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/quickview.perspective -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/SensorData.ui -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/GNSSData.ui -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource
+creating /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-red-checked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-blue-checked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-grey-unchecked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-teal-unchecked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-blue-unchecked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-teal-checked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-green-checked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-red-unchecked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-yellow-unchecked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-grey-checked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-yellow-checked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons/icon-green-unchecked.png -> /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/share/microstrain_inertial_rqt/microstrain_inertial_rqt_common/resource/icons

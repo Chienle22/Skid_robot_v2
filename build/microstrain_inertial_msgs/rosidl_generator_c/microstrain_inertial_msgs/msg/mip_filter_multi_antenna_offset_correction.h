@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from microstrain_inertial_msgs:msg/MipFilterMultiAntennaOffsetCorrection.idl
+// generated code does not contain a copyright notice
+
+#ifndef MICROSTRAIN_INERTIAL_MSGS__MSG__MIP_FILTER_MULTI_ANTENNA_OFFSET_CORRECTION_H_
+#define MICROSTRAIN_INERTIAL_MSGS__MSG__MIP_FILTER_MULTI_ANTENNA_OFFSET_CORRECTION_H_
+
+#include "microstrain_inertial_msgs/msg/detail/mip_filter_multi_antenna_offset_correction__struct.h"
+#include "microstrain_inertial_msgs/msg/detail/mip_filter_multi_antenna_offset_correction__functions.h"
+#include "microstrain_inertial_msgs/msg/detail/mip_filter_multi_antenna_offset_correction__type_support.h"
+
+#endif  // MICROSTRAIN_INERTIAL_MSGS__MSG__MIP_FILTER_MULTI_ANTENNA_OFFSET_CORRECTION_H_

@@ -1,0 +1,1 @@
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/rosidl_generator_c/microstrain_inertial_msgs/srv/detail/mip3dm_gpio_state_read__functions.h

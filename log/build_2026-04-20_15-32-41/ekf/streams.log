@@ -1,0 +1,42 @@
+[0.599s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/ekf': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/ekf/build
+[0.776s] running develop
+[0.893s] Removing /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf.egg-link (link to .)
+[0.912s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/ekf' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/ekf/build
+[0.913s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/src/localization/ekf': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ekf build --build-base /home/chienle/Desktop/skid_robot_v2/build/ekf/build install --record /home/chienle/Desktop/skid_robot_v2/build/ekf/install.log --single-version-externally-managed install_data --force
+[1.073s] running egg_info
+[1.073s] writing ../../../build/ekf/ekf.egg-info/PKG-INFO
+[1.073s] writing dependency_links to ../../../build/ekf/ekf.egg-info/dependency_links.txt
+[1.073s] writing entry points to ../../../build/ekf/ekf.egg-info/entry_points.txt
+[1.074s] writing requirements to ../../../build/ekf/ekf.egg-info/requires.txt
+[1.074s] writing top-level names to ../../../build/ekf/ekf.egg-info/top_level.txt
+[1.074s] reading manifest file '../../../build/ekf/ekf.egg-info/SOURCES.txt'
+[1.076s] writing manifest file '../../../build/ekf/ekf.egg-info/SOURCES.txt'
+[1.076s] running build
+[1.076s] running build_py
+[1.076s] creating /home/chienle/Desktop/skid_robot_v2/build/ekf/build
+[1.076s] creating /home/chienle/Desktop/skid_robot_v2/build/ekf/build/lib
+[1.077s] creating /home/chienle/Desktop/skid_robot_v2/build/ekf/build/lib/ekf
+[1.077s] copying ekf/minimal_publisher.py -> /home/chienle/Desktop/skid_robot_v2/build/ekf/build/lib/ekf
+[1.077s] copying ekf/__init__.py -> /home/chienle/Desktop/skid_robot_v2/build/ekf/build/lib/ekf
+[1.077s] copying ekf/minimal_subscriber.py -> /home/chienle/Desktop/skid_robot_v2/build/ekf/build/lib/ekf
+[1.077s] running install
+[1.077s] running install_lib
+[1.077s] creating /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf
+[1.077s] copying /home/chienle/Desktop/skid_robot_v2/build/ekf/build/lib/ekf/minimal_publisher.py -> /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf
+[1.077s] copying /home/chienle/Desktop/skid_robot_v2/build/ekf/build/lib/ekf/__init__.py -> /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf
+[1.077s] copying /home/chienle/Desktop/skid_robot_v2/build/ekf/build/lib/ekf/minimal_subscriber.py -> /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf
+[1.077s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf/minimal_publisher.py to minimal_publisher.cpython-310.pyc
+[1.077s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf/__init__.py to __init__.cpython-310.pyc
+[1.077s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf/minimal_subscriber.py to minimal_subscriber.cpython-310.pyc
+[1.077s] running install_data
+[1.077s] copying resource/ekf -> /home/chienle/Desktop/skid_robot_v2/install/ekf/share/ament_index/resource_index/packages
+[1.077s] copying package.xml -> /home/chienle/Desktop/skid_robot_v2/install/ekf/share/ekf
+[1.078s] copying launch/ekf_launch.py -> /home/chienle/Desktop/skid_robot_v2/install/ekf/share/ekf/launch
+[1.078s] copying config/ekf.yaml -> /home/chienle/Desktop/skid_robot_v2/install/ekf/share/ekf/config
+[1.078s] running install_egg_info
+[1.079s] Copying ../../../build/ekf/ekf.egg-info to /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf-0.0.0-py3.10.egg-info
+[1.079s] running install_scripts
+[1.093s] Installing listener script to /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/ekf
+[1.093s] Installing talker script to /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/ekf
+[1.093s] writing list of installed files to '/home/chienle/Desktop/skid_robot_v2/build/ekf/install.log'
+[1.116s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/src/localization/ekf' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ekf build --build-base /home/chienle/Desktop/skid_robot_v2/build/ekf/build install --record /home/chienle/Desktop/skid_robot_v2/build/ekf/install.log --single-version-externally-managed install_data --force

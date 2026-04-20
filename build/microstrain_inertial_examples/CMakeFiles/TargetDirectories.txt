@@ -1,0 +1,9 @@
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/uninstall.dir
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/microstrain_inertial_examples_uninstall.dir
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/test.dir
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/edit_cache.dir
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/rebuild_cache.dir
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/list_install_components.dir
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/install.dir
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/install/local.dir
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_examples/CMakeFiles/install/strip.dir

@@ -1,0 +1,3 @@
+[console_scripts]
+odom = odom.odom:main
+

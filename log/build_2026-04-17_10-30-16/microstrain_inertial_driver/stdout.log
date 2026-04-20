@@ -1,0 +1,42 @@
+[  4%] Built target microstrain
+[  6%] Built target microstrain_recording_connection
+[ 10%] Built target microstrain_serial
+[ 60%] Built target mip
+[35m[1mConsolidate compiler generated dependencies of target microstrain_inertial_driver_node[0m
+[35m[1mConsolidate compiler generated dependencies of target microstrain_inertial_driver_lifecycle_node[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_main.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_connection.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_aux.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable microstrain_inertial_driver_lifecycle_node[0m
+[ 89%] Built target microstrain_inertial_driver_lifecycle_node
+[ 90%] [32m[1mLinking CXX executable microstrain_inertial_driver_node[0m
+[100%] Built target microstrain_inertial_driver_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/lib/microstrain_inertial_driver/microstrain_inertial_driver_lifecycle_node
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/lib/microstrain_inertial_driver/microstrain_inertial_driver_node
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/launch/microstrain_launch.py
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/launch/microstrain_lifecycle_launch.py
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/config/empty.yml
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/microstrain_inertial_driver_common/config/params.yml
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/ament_index/resource_index/package_run_dependencies/microstrain_inertial_driver
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/ament_index/resource_index/parent_prefix_path/microstrain_inertial_driver
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/environment/path.sh
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/environment/path.dsv
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/local_setup.bash
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/local_setup.sh
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/local_setup.zsh
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/local_setup.dsv
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.dsv
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/ament_index/resource_index/packages/microstrain_inertial_driver
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/cmake/microstrain_inertial_driverConfig.cmake
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/cmake/microstrain_inertial_driverConfig-version.cmake
+-- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.xml

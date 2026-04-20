@@ -1,0 +1,1 @@
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/rosidl_typesupport_introspection_c/microstrain_inertial_msgs/msg/detail/mip_system_time_sync_status__rosidl_typesupport_introspection_c.h

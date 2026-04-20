@@ -1,0 +1,4 @@
+source;share/microstrain_inertial_examples/local_setup.bash
+source;share/microstrain_inertial_examples/local_setup.dsv
+source;share/microstrain_inertial_examples/local_setup.sh
+source;share/microstrain_inertial_examples/local_setup.zsh

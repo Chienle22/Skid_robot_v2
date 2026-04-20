@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmip_metadata.a CMakeFiles/mip_metadata.dir/mip_definitions.cpp.o
+/usr/bin/ranlib libmip_metadata.a

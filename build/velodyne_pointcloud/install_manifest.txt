@@ -1,0 +1,5 @@
+/home/chienle/Desktop/skid_robot_v2/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+/home/chienle/Desktop/skid_robot_v2/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+/home/chienle/Desktop/skid_robot_v2/install/velodyne_pointcloud/lib/libtransform.so
+/home/chienle/Desktop/skid_robot_v2/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport.cmake
+/home/chienle/Desktop/skid_robot_v2/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudExport-noconfig.cmake

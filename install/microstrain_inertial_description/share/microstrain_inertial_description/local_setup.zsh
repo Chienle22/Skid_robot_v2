@@ -1,0 +1,1 @@
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description/ament_cmake_environment_hooks/local_setup.zsh

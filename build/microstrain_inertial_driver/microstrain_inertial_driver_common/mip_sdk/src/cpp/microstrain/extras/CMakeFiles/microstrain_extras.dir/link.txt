@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmicrostrain_extras.a CMakeFiles/microstrain_extras.dir/scope_helper.cpp.o
+/usr/bin/ranlib libmicrostrain_extras.a

@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c9cf179ed22ba5b64468.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "microstrain_inertial_msgs__py",
+					"jsonFile" : "directory-microstrain_inertial_msgs__py-a2b1f8c657d650ad5de8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/microstrain_inertial_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "microstrain_inertial_msgs__rs",
+					"jsonFile" : "directory-microstrain_inertial_msgs__rs-92cbce1cbc03bf529084.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/microstrain_inertial_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "microstrain_inertial_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_microstrain_inertial_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_microstrain_inertial_msgs_egg-295a059b0fbf30c2752c.json",
+					"name" : "ament_cmake_python_build_microstrain_inertial_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_microstrain_inertial_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_microstrain_inertial_msgs-8d8926e7bc6104505e72.json",
+					"name" : "ament_cmake_python_symlink_microstrain_inertial_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs-88826d0c9d8b44174e45.json",
+					"name" : "microstrain_inertial_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__cpp-7bf0ae875794a6a5bae4.json",
+					"name" : "microstrain_inertial_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "microstrain_inertial_msgs__py::@3d7039e6d8ef545386a3",
+					"jsonFile" : "target-microstrain_inertial_msgs__py-8482f6c80a2b08e7b60a.json",
+					"name" : "microstrain_inertial_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_generator_c-2e3e37f5af7f0ca4ce62.json",
+					"name" : "microstrain_inertial_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_generator_py-4636e307ac6ab05f8c43.json",
+					"name" : "microstrain_inertial_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_c-c00b3aa1e6184949b68e.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_c__pyext-00069ad763a9293b79e5.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_cpp-bd700b50854539091c9d.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c-1a6972555a4bfae63c68.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c__pyext-fb5356b89ece32cee96d.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_fastrtps_cpp-49b0405e1601a791e802.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_introspection_c-3d414ef0cd08259bb323.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_introspection_c__pyext-db5f2f5fd961f1bdba63.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_introspection_cpp-cb6766c800ba0d120465.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "microstrain_inertial_msgs__rs::@e0b36591c8f9336c5b9a",
+					"jsonFile" : "target-microstrain_inertial_msgs__rs-0375d93c1063e26a3514.json",
+					"name" : "microstrain_inertial_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs_uninstall-ff4e89aad26998d859a2.json",
+					"name" : "microstrain_inertial_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a43f383bf1cf487e99c6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs",
+		"source" : "/home/chienle/Desktop/skid_robot_v2/src/hardware/microstrain_inertial/microstrain_inertial_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

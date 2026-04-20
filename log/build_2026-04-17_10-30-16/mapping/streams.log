@@ -1,0 +1,25 @@
+[0.647s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/mapping': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/mapping/build --no-deps symlink_data
+[0.903s] running develop
+[1.057s] running egg_info
+[1.058s] creating mapping.egg-info
+[1.058s] writing mapping.egg-info/PKG-INFO
+[1.058s] writing dependency_links to mapping.egg-info/dependency_links.txt
+[1.058s] writing entry points to mapping.egg-info/entry_points.txt
+[1.058s] writing requirements to mapping.egg-info/requires.txt
+[1.058s] writing top-level names to mapping.egg-info/top_level.txt
+[1.058s] writing manifest file 'mapping.egg-info/SOURCES.txt'
+[1.060s] reading manifest file 'mapping.egg-info/SOURCES.txt'
+[1.060s] writing manifest file 'mapping.egg-info/SOURCES.txt'
+[1.061s] running build_ext
+[1.061s] Creating /home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+[1.062s] 
+[1.062s] Installed /home/chienle/Desktop/skid_robot_v2/build/mapping
+[1.062s] running symlink_data
+[1.062s] creating /home/chienle/Desktop/skid_robot_v2/install/mapping/share/ament_index
+[1.062s] creating /home/chienle/Desktop/skid_robot_v2/install/mapping/share/ament_index/resource_index
+[1.062s] creating /home/chienle/Desktop/skid_robot_v2/install/mapping/share/ament_index/resource_index/packages
+[1.063s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/mapping/resource/mapping -> /home/chienle/Desktop/skid_robot_v2/install/mapping/share/ament_index/resource_index/packages
+[1.063s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/mapping/package.xml -> /home/chienle/Desktop/skid_robot_v2/install/mapping/share/mapping
+[1.063s] creating /home/chienle/Desktop/skid_robot_v2/install/mapping/share/mapping/launch
+[1.063s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/mapping/launch/cartographer_velodyne_launch.py -> /home/chienle/Desktop/skid_robot_v2/install/mapping/share/mapping/launch
+[1.091s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/mapping' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/mapping/build --no-deps symlink_data

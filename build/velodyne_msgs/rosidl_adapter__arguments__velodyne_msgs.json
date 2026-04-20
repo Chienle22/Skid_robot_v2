@@ -1,0 +1,7 @@
+{
+  "package_name": "velodyne_msgs",
+  "non_idl_tuples": [
+    "/home/chienle/Desktop/skid_robot_v2/src/hardware/velodyne/velodyne_msgs:msg/VelodynePacket.msg",
+    "/home/chienle/Desktop/skid_robot_v2/src/hardware/velodyne/velodyne_msgs:msg/VelodyneScan.msg"
+  ]
+}

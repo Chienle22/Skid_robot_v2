@@ -1,0 +1,24 @@
+[0.640s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/odom': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/odom/build --no-deps symlink_data
+[0.889s] running develop
+[1.044s] running egg_info
+[1.044s] creating odom.egg-info
+[1.045s] writing odom.egg-info/PKG-INFO
+[1.045s] writing dependency_links to odom.egg-info/dependency_links.txt
+[1.045s] writing entry points to odom.egg-info/entry_points.txt
+[1.045s] writing requirements to odom.egg-info/requires.txt
+[1.045s] writing top-level names to odom.egg-info/top_level.txt
+[1.045s] writing manifest file 'odom.egg-info/SOURCES.txt'
+[1.046s] reading manifest file 'odom.egg-info/SOURCES.txt'
+[1.047s] writing manifest file 'odom.egg-info/SOURCES.txt'
+[1.048s] running build_ext
+[1.048s] Creating /home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages/odom.egg-link (link to .)
+[1.049s] Installing odom script to /home/chienle/Desktop/skid_robot_v2/install/odom/lib/odom
+[1.049s] 
+[1.049s] Installed /home/chienle/Desktop/skid_robot_v2/build/odom
+[1.049s] running symlink_data
+[1.049s] creating /home/chienle/Desktop/skid_robot_v2/install/odom/share/ament_index
+[1.049s] creating /home/chienle/Desktop/skid_robot_v2/install/odom/share/ament_index/resource_index
+[1.049s] creating /home/chienle/Desktop/skid_robot_v2/install/odom/share/ament_index/resource_index/packages
+[1.049s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/odom/resource/odom -> /home/chienle/Desktop/skid_robot_v2/install/odom/share/ament_index/resource_index/packages
+[1.049s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/odom/package.xml -> /home/chienle/Desktop/skid_robot_v2/install/odom/share/odom
+[1.077s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/odom' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/odom/build --no-deps symlink_data

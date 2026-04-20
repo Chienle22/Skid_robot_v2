@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "microstrain_inertial_msgs__rs",
+		"source" : "/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/microstrain_inertial_msgs__rs"
+	}
+}

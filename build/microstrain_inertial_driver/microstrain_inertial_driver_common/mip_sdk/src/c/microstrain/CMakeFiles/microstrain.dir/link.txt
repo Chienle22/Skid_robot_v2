@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmicrostrain.a CMakeFiles/microstrain.dir/serialization.c.o CMakeFiles/microstrain.dir/logging.c.o
+/usr/bin/ranlib libmicrostrain.a

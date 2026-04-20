@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections",
+		"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections"
+	}
+}

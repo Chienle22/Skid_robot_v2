@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/PKG-INFO
+writing dependency_links to microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/dependency_links.txt
+writing requirements to microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/requires.txt
+writing top-level names to microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/top_level.txt
+reading manifest file 'microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/SOURCES.txt'
+writing manifest file 'microstrain_inertial_rqt_common/src/microstrain_inertial_rqt.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt/lib/python3.10/site-packages/microstrain-inertial-rqt.egg-link (link to microstrain_inertial_rqt_common/src)
+
+Installed /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/src
+running symlink_data

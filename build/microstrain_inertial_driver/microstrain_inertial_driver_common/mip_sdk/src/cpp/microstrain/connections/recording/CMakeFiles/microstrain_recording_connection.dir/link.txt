@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmicrostrain_recording_connection.a CMakeFiles/microstrain_recording_connection.dir/recording_connection.cpp.o
+/usr/bin/ranlib libmicrostrain_recording_connection.a

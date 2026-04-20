@@ -1,0 +1,1 @@
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/rosidl_generator_cpp/microstrain_inertial_msgs/msg/mip_base_device_info.hpp

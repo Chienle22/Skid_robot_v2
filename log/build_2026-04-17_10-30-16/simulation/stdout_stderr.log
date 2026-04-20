@@ -1,0 +1,37 @@
+running develop
+running egg_info
+creating simulation.egg-info
+writing simulation.egg-info/PKG-INFO
+writing dependency_links to simulation.egg-info/dependency_links.txt
+writing entry points to simulation.egg-info/entry_points.txt
+writing requirements to simulation.egg-info/requires.txt
+writing top-level names to simulation.egg-info/top_level.txt
+writing manifest file 'simulation.egg-info/SOURCES.txt'
+reading manifest file 'simulation.egg-info/SOURCES.txt'
+writing manifest file 'simulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chienle/Desktop/skid_robot_v2/install/simulation/lib/python3.10/site-packages/simulation.egg-link (link to .)
+
+Installed /home/chienle/Desktop/skid_robot_v2/build/simulation
+running symlink_data
+creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/ament_index
+creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/ament_index/resource_index
+creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/ament_index/resource_index/packages
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/resource/simulation -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/ament_index/resource_index/packages
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/package.xml -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation
+creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/launch
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/launch/launch.py -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/launch
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/launch/gz_skid_launch.py -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/launch
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/launch/gz_simulator_launch.py -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/launch
+creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/urdf
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/urdf/skid_robot_v3.urdf -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/urdf
+creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes
+creating /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/wheel_front_left.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/base_link.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/imu.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/basefoot_link.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/wheel_front_right.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/wheel_back_left.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/wheel_back_right.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/simulation/meshes/visual/lidar.STL -> /home/chienle/Desktop/skid_robot_v2/install/simulation/share/simulation/meshes/visual

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmip_extras.a CMakeFiles/mip_extras.dir/firmware_version.cpp.o CMakeFiles/mip_extras.dir/platform_connection.cpp.o
+/usr/bin/ranlib libmip_extras.a

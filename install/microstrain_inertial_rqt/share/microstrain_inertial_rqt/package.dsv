@@ -1,0 +1,9 @@
+source;share/microstrain_inertial_rqt/hook/pythonpath.ps1
+source;share/microstrain_inertial_rqt/hook/pythonpath.dsv
+source;share/microstrain_inertial_rqt/hook/pythonpath.sh
+source;share/microstrain_inertial_rqt/hook/ament_prefix_path.ps1
+source;share/microstrain_inertial_rqt/hook/ament_prefix_path.dsv
+source;share/microstrain_inertial_rqt/hook/ament_prefix_path.sh
+source;../../build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/src/share/microstrain_inertial_rqt/hook/pythonpath_develop.ps1
+source;../../build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/src/share/microstrain_inertial_rqt/hook/pythonpath_develop.dsv
+source;../../build/microstrain_inertial_rqt/microstrain_inertial_rqt_common/src/share/microstrain_inertial_rqt/hook/pythonpath_develop.sh

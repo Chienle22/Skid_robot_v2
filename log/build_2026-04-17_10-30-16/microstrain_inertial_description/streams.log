@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chienle/Desktop/skid_robot_v2/src/hardware/microstrain_inertial/microstrain_inertial_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.273s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.399s] -- Detecting CXX compile features
+[0.400s] -- Detecting CXX compile features - done
+[0.403s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.667s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.771s] -- Configuring done
+[0.774s] -- Generating done
+[0.775s] -- Build files have been written to: /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description
+[0.781s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chienle/Desktop/skid_robot_v2/src/hardware/microstrain_inertial/microstrain_inertial_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description
+[0.782s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description -- -j20 -l20
+[0.834s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description -- -j20 -l20
+[0.836s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description
+[0.846s] -- Install configuration: ""
+[0.846s] -- Execute custom install script
+[0.848s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/cv5.urdf.xacro
+[0.860s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/cv7.urdf.xacro
+[0.872s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gq7.urdf.xacro
+[0.884s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gv7.urdf.xacro
+[0.895s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_15.urdf.xacro
+[0.906s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_25.urdf.xacro
+[0.918s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_45.urdf.xacro
+[0.930s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/rtk.urdf.xacro
+[0.941s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/cv5.stl
+[0.952s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/cv7.stl
+[0.965s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gq7.stl
+[0.977s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gv7.stl
+[0.988s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_15.stl
+[0.998s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_25.stl
+[1.009s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_45.stl
+[1.020s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/rtk.stl
+[1.032s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/ament_index/resource_index/package_run_dependencies/microstrain_inertial_description
+[1.043s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/ament_index/resource_index/parent_prefix_path/microstrain_inertial_description
+[1.054s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/ament_prefix_path.sh
+[1.066s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/ament_prefix_path.dsv
+[1.079s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/path.sh
+[1.090s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/path.dsv
+[1.101s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.bash
+[1.113s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.sh
+[1.123s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.zsh
+[1.135s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.dsv
+[1.146s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/package.dsv
+[1.159s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/ament_index/resource_index/packages/microstrain_inertial_description
+[1.171s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/cmake/microstrain_inertial_descriptionConfig.cmake
+[1.182s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/cmake/microstrain_inertial_descriptionConfig-version.cmake
+[1.192s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description/share/microstrain_inertial_description/package.xml
+[1.206s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_description

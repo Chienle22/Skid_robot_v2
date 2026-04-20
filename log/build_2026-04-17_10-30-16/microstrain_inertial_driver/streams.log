@@ -1,0 +1,46 @@
+[0.015s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver': AMENT_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver -- -j20 -l20
+[0.100s] [  4%] Built target microstrain
+[0.135s] [  6%] Built target microstrain_recording_connection
+[0.138s] [ 10%] Built target microstrain_serial
+[0.152s] [ 60%] Built target mip
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target microstrain_inertial_driver_node[0m
+[0.197s] [35m[1mConsolidate compiler generated dependencies of target microstrain_inertial_driver_lifecycle_node[0m
+[0.247s] [ 61%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver.cpp.o[0m
+[0.256s] [ 62%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[0.257s] [ 64%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_main.cpp.o[0m
+[0.258s] [ 65%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_connection.cpp.o[0m
+[0.259s] [ 66%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[0.259s] [ 68%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[0.260s] [ 69%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_aux.cpp.o[0m
+[0.294s] [ 70%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[13.753s] [ 72%] [32m[1mLinking CXX executable microstrain_inertial_driver_lifecycle_node[0m
+[18.703s] [ 89%] Built target microstrain_inertial_driver_lifecycle_node
+[34.114s] [ 90%] [32m[1mLinking CXX executable microstrain_inertial_driver_node[0m
+[37.451s] [100%] Built target microstrain_inertial_driver_node
+[37.466s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver -- -j20 -l20
+[37.469s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver': AMENT_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver
+[37.479s] -- Install configuration: ""
+[37.480s] -- Execute custom install script
+[37.481s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/lib/microstrain_inertial_driver/microstrain_inertial_driver_lifecycle_node
+[37.493s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/lib/microstrain_inertial_driver/microstrain_inertial_driver_node
+[37.507s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/launch/microstrain_launch.py
+[37.517s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/launch/microstrain_lifecycle_launch.py
+[37.530s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/config/empty.yml
+[37.543s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/microstrain_inertial_driver_common/config/params.yml
+[37.555s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/ament_index/resource_index/package_run_dependencies/microstrain_inertial_driver
+[37.567s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/ament_index/resource_index/parent_prefix_path/microstrain_inertial_driver
+[37.578s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/environment/ament_prefix_path.sh
+[37.589s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/environment/ament_prefix_path.dsv
+[37.600s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/environment/path.sh
+[37.613s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/environment/path.dsv
+[37.624s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/local_setup.bash
+[37.634s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/local_setup.sh
+[37.644s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/local_setup.zsh
+[37.653s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/local_setup.dsv
+[37.664s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.dsv
+[37.673s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/ament_index/resource_index/packages/microstrain_inertial_driver
+[37.684s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.695s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/cmake/microstrain_inertial_driverConfig.cmake
+[37.706s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/cmake/microstrain_inertial_driverConfig-version.cmake
+[37.716s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_driver/share/microstrain_inertial_driver/package.xml
+[37.730s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver' returned '0': AMENT_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver

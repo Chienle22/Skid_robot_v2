@@ -1,0 +1,429 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e06c04d834d5ceb43b41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						11
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk-0e3bcc443e4e20330156.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk"
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.c.microstrain-3f43e090a55bff74daf9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.c.microstrain.connections-ef697f80ed2000a23cf2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections"
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/serial",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.c.microstrain.connections.serial-082bfd01e4c1e49583a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/serial",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.c.microstrain.connections.tcp-706abce491b018cdc16a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/c/mip",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.c.mip-ff97d2f21df3ee0b92d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/c/mip",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain",
+					"childIndexes" : 
+					[
+						8,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.microstrain-805a2410de8261e6b7df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain"
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.microstrain.connections-1d3b0e40b0ef47b92085.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections"
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/serial",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.microstrain.connections.serial-adf3af33a9479a66247a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/serial"
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/tcp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.microstrain.connections.tcp-2b5c095be42ac8fd8479.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/tcp"
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/recording",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.microstrain.connections.recording-5bbe974c53060be41add.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/recording",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/extras",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.microstrain.extras-fc354c10de5035b4354f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/extras",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/mip",
+					"childIndexes" : 
+					[
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.mip-136830c8a05b77c9e5df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/mip"
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/metadata",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.mip.metadata-25d446a841c5d37045da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/metadata",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-microstrain_inertial_driver_common.mip_sdk.src.cpp.mip.extras-99a8fcf7fe43e437ee99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 1,
+					"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "microstrain_inertial_driver",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "MIP_SDK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "microstrain::@017886e4a82778764680",
+					"jsonFile" : "target-microstrain-9f7bb858a7fc4ce64268.json",
+					"name" : "microstrain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "microstrain_extras::@7bad46136efdbd0249db",
+					"jsonFile" : "target-microstrain_extras-ed58837fdf75be7f0d92.json",
+					"name" : "microstrain_extras",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_driver_lifecycle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_driver_lifecycle_node-464ffc69b6cc0a459447.json",
+					"name" : "microstrain_inertial_driver_lifecycle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_driver_node-b884de7c9cf2bf977014.json",
+					"name" : "microstrain_inertial_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_driver_uninstall-2a710dcd7b139d727c3f.json",
+					"name" : "microstrain_inertial_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "microstrain_recording_connection::@a479fa834ebe39de4e64",
+					"jsonFile" : "target-microstrain_recording_connection-7af49962b389d9219c11.json",
+					"name" : "microstrain_recording_connection",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "microstrain_serial::@535bfdee78fee18bb283",
+					"jsonFile" : "target-microstrain_serial-e351b55c1fca0c2ee984.json",
+					"name" : "microstrain_serial",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "microstrain_socket::@b484ebecd3e7f3bf4731",
+					"jsonFile" : "target-microstrain_socket-a20ec03643531d186870.json",
+					"name" : "microstrain_socket",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mip::@cf4e9c669323afdc980b",
+					"jsonFile" : "target-mip-0d35d6bdfcab69593374.json",
+					"name" : "mip",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "mip_extras::@5040837ab51119ca09fe",
+					"jsonFile" : "target-mip_extras-c507e757dfe7127e65ac.json",
+					"name" : "mip_extras",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "mip_metadata::@dc7fcf8a74225311e625",
+					"jsonFile" : "target-mip_metadata-45da11586ae291ce0031.json",
+					"name" : "mip_metadata",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f75b2cc3a4d58289dafc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver",
+		"source" : "/home/chienle/Desktop/skid_robot_v2/src/hardware/microstrain_inertial/microstrain_inertial_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

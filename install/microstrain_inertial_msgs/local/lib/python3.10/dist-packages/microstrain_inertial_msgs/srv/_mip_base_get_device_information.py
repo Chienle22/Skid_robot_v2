@@ -1,0 +1,1 @@
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/rosidl_generator_py/microstrain_inertial_msgs/srv/_mip_base_get_device_information.py

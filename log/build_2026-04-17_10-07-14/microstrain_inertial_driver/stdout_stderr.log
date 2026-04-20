@@ -1,0 +1,136 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- Microstrain Driver Version: ros2-4.8.0
+-- Looking for C++ include span
+-- Looking for C++ include span - found
+-- Looking for C++ include bit
+-- Looking for C++ include bit - found
+-- Performing Test MIP_COMPILER_SUPPORTS_METADATA
+-- Performing Test MIP_COMPILER_SUPPORTS_METADATA - Success
+-- MIP_ENABLE_METADATA not set - compiler support: 1
+-- Determined version from Git: v3.0.0-192-g8bd79339
+[0mMicroStrain logging is enabled. Max level = 'MICROSTRAIN_LOG_LEVEL_INFO'[0m
+-- Determined version from Git: v3.0.0-192-g8bd79339
+[0mC definitions = definitions/commands_3dm.c;definitions/commands_aiding.c;definitions/commands_base.c;definitions/commands_filter.c;definitions/commands_gnss.c;definitions/commands_rtk.c;definitions/commands_system.c;definitions/data_filter.c;definitions/data_gnss.c;definitions/data_sensor.c;definitions/data_shared.c;definitions/data_system.c;definitions/commands_3dm.h;definitions/commands_aiding.h;definitions/commands_base.h;definitions/commands_filter.h;definitions/commands_gnss.h;definitions/commands_rtk.h;definitions/commands_system.h;definitions/data_filter.h;definitions/data_gnss.h;definitions/data_sensor.h;definitions/data_shared.h;definitions/data_system.h[0m
+[0mC++ definitions = definitions/commands_3dm.cpp;definitions/commands_aiding.cpp;definitions/commands_base.cpp;definitions/commands_filter.cpp;definitions/commands_gnss.cpp;definitions/commands_rtk.cpp;definitions/commands_system.cpp;definitions/data_filter.cpp;definitions/data_gnss.cpp;definitions/data_sensor.cpp;definitions/data_shared.cpp;definitions/data_system.cpp;definitions/commands_3dm.hpp;definitions/commands_aiding.hpp;definitions/commands_base.hpp;definitions/commands_filter.hpp;definitions/commands_gnss.hpp;definitions/commands_rtk.hpp;definitions/commands_system.hpp;definitions/data_filter.hpp;definitions/data_gnss.hpp;definitions/data_sensor.hpp;definitions/data_shared.hpp;definitions/data_system.hpp[0m
+[0mC++ metadata definitions = definitions/commands_3dm.hpp;definitions/commands_aiding.hpp;definitions/commands_base.hpp;definitions/commands_filter.hpp;definitions/commands_gnss.hpp;definitions/commands_rtk.hpp;definitions/commands_system.hpp;definitions/data_filter.hpp;definitions/data_gnss.hpp;definitions/data_sensor.hpp;definitions/data_shared.hpp;definitions/data_system.hpp[0m
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+-- Found rtcm_msgs: 1.1.6 (/opt/ros/humble/share/rtcm_msgs/cmake)
+-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found microstrain_inertial_msgs: 4.8.0 (/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/share/microstrain_inertial_msgs/cmake)
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver
+[  1%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/CMakeFiles/microstrain.dir/logging.c.o[0m
+[  2%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/CMakeFiles/microstrain.dir/serialization.c.o[0m
+[  4%] [32m[1mLinking C static library libmicrostrain.a[0m
+[  4%] Built target microstrain
+[  5%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/recording/CMakeFiles/microstrain_recording_connection.dir/recording_connection.cpp.o[0m
+[  6%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/serial/CMakeFiles/microstrain_serial.dir/serial_port.c.o[0m
+[  8%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/serial/CMakeFiles/microstrain_serial.dir/__/__/__/__/cpp/microstrain/connections/serial/serial_connection.cpp.o[0m
+[  9%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_field.c.o[0m
+[ 13%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_device_models.c.o[0m
+[ 13%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_descriptors.c.o[0m
+[ 13%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_cmdqueue.c.o[0m
+[ 14%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_dispatch.c.o[0m
+[ 16%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_parser.c.o[0m
+[ 17%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_packet.c.o[0m
+[ 18%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/common.c.o[0m
+[ 20%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_result.c.o[0m
+[ 21%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_serialization.c.o[0m
+[ 22%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/mip_interface.c.o[0m
+[ 24%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/commands_3dm.c.o[0m
+[ 25%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/commands_aiding.c.o[0m
+[ 26%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/commands_base.c.o[0m
+[ 28%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/commands_filter.c.o[0m
+[ 29%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/commands_gnss.c.o[0m
+[ 30%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/commands_rtk.c.o[0m
+[ 32%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/data_filter.c.o[0m
+[ 33%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/commands_system.c.o[0m
+[ 34%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/data_gnss.c.o[0m
+[ 36%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/data_sensor.c.o[0m
+[ 38%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/data_shared.c.o[0m
+[ 38%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/mip_interface.cpp.o[0m
+[ 40%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/definitions/data_system.c.o[0m
+[ 41%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_base.cpp.o[0m
+[ 42%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_3dm.cpp.o[0m
+[ 44%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_filter.cpp.o[0m
+[ 45%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_aiding.cpp.o[0m
+[ 46%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_gnss.cpp.o[0m
+[ 48%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_rtk.cpp.o[0m
+[ 49%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_filter.cpp.o[0m
+[ 50%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_gnss.cpp.o[0m
+[ 52%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_system.cpp.o[0m
+[ 53%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_sensor.cpp.o[0m
+[ 54%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_shared.cpp.o[0m
+[ 56%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_system.cpp.o[0m
+[ 57%] [32m[1mLinking CXX static library libmicrostrain_serial.a[0m
+[ 57%] Built target microstrain_serial
+[ 58%] [32m[1mLinking CXX static library libmicrostrain_recording_connection.a[0m
+[ 58%] Built target microstrain_recording_connection
+[ 60%] [32m[1mLinking CXX static library libmip.a[0m
+[ 60%] Built target mip
+[ 65%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/src/microstrain_inertial_driver_lifecycle_node.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/src/microstrain_inertial_driver_lifecycle.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/node_common.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/services.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/clock_bias_monitor.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_publisher_mapping.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/node_common.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_publisher_mapping.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_mapping.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver_node.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/services.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_mapping.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/clock_bias_monitor.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_main.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_aux.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_connection.cpp.o[0m

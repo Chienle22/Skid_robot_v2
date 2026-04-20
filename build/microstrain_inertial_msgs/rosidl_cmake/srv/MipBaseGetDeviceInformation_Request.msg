@@ -1,0 +1,2 @@
+# Service definition for the MIP command https://s3.amazonaws.com/files.microstrain.com/GQ7+User+Manual/external_content/dcp/Commands/base_command/data/mip_cmd_base_get_device_info.htm
+

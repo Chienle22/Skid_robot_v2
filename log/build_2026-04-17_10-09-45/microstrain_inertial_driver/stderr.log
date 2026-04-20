@@ -1,0 +1,11 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:104: CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:160: CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/build.make:160: CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....

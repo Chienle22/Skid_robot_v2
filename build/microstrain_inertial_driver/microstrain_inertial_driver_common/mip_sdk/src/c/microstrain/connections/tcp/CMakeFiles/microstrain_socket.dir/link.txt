@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmicrostrain_socket.a CMakeFiles/microstrain_socket.dir/tcp_socket.c.o CMakeFiles/microstrain_socket.dir/__/__/__/__/cpp/microstrain/connections/tcp/tcp_connection.cpp.o
+/usr/bin/ranlib libmicrostrain_socket.a

@@ -1,0 +1,18 @@
+[0.749s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/low_control': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/low_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/low_control/build --no-deps symlink_data
+[1.023s] running develop
+[1.198s] running egg_info
+[1.198s] writing low_control.egg-info/PKG-INFO
+[1.198s] writing dependency_links to low_control.egg-info/dependency_links.txt
+[1.198s] writing entry points to low_control.egg-info/entry_points.txt
+[1.198s] writing requirements to low_control.egg-info/requires.txt
+[1.198s] writing top-level names to low_control.egg-info/top_level.txt
+[1.200s] reading manifest file 'low_control.egg-info/SOURCES.txt'
+[1.201s] writing manifest file 'low_control.egg-info/SOURCES.txt'
+[1.202s] running build_ext
+[1.203s] Creating /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low-control.egg-link (link to .)
+[1.203s] Installing ZLA8015D_pub script to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/low_control
+[1.203s] Installing kinematic script to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/low_control
+[1.204s] 
+[1.204s] Installed /home/chienle/Desktop/skid_robot_v2/build/low_control
+[1.204s] running symlink_data
+[1.226s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/low_control' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/low_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/low_control/build --no-deps symlink_data

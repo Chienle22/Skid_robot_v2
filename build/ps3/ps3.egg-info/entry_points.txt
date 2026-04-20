@@ -1,0 +1,3 @@
+[console_scripts]
+ps3 = low_control.ps3:main
+

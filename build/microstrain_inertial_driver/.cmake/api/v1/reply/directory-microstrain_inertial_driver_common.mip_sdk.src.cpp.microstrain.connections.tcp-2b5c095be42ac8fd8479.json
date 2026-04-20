@@ -1,0 +1,83 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"microstrain_setup_install_headers"
+		],
+		"files" : 
+		[
+			"microstrain_inertial_driver_common/mip_sdk/cmake/microstrain_utilities.cmake",
+			"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/tcp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/c/microstrain/connections/tcp",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp/tcp_socket.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain/connections/tcp",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/tcp/tcp_connection.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain/connections",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/connection.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/tcp",
+		"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/tcp"
+	}
+}

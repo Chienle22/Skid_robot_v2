@@ -1,0 +1,36 @@
+[0.597s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/odom': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/odom/build
+[0.772s] running develop
+[0.887s] Removing /home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages/odom.egg-link (link to .)
+[0.905s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/odom' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/odom/build
+[0.906s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/src/localization/odom': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/odom build --build-base /home/chienle/Desktop/skid_robot_v2/build/odom/build install --record /home/chienle/Desktop/skid_robot_v2/build/odom/install.log --single-version-externally-managed install_data --force
+[1.066s] running egg_info
+[1.067s] writing ../../../build/odom/odom.egg-info/PKG-INFO
+[1.067s] writing dependency_links to ../../../build/odom/odom.egg-info/dependency_links.txt
+[1.067s] writing entry points to ../../../build/odom/odom.egg-info/entry_points.txt
+[1.067s] writing requirements to ../../../build/odom/odom.egg-info/requires.txt
+[1.067s] writing top-level names to ../../../build/odom/odom.egg-info/top_level.txt
+[1.068s] reading manifest file '../../../build/odom/odom.egg-info/SOURCES.txt'
+[1.069s] writing manifest file '../../../build/odom/odom.egg-info/SOURCES.txt'
+[1.069s] running build
+[1.069s] running build_py
+[1.070s] creating /home/chienle/Desktop/skid_robot_v2/build/odom/build
+[1.070s] creating /home/chienle/Desktop/skid_robot_v2/build/odom/build/lib
+[1.070s] creating /home/chienle/Desktop/skid_robot_v2/build/odom/build/lib/odom
+[1.070s] copying odom/odom.py -> /home/chienle/Desktop/skid_robot_v2/build/odom/build/lib/odom
+[1.071s] copying odom/__init__.py -> /home/chienle/Desktop/skid_robot_v2/build/odom/build/lib/odom
+[1.071s] running install
+[1.071s] running install_lib
+[1.071s] creating /home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages/odom
+[1.071s] copying /home/chienle/Desktop/skid_robot_v2/build/odom/build/lib/odom/odom.py -> /home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages/odom
+[1.071s] copying /home/chienle/Desktop/skid_robot_v2/build/odom/build/lib/odom/__init__.py -> /home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages/odom
+[1.071s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages/odom/odom.py to odom.cpython-310.pyc
+[1.072s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages/odom/__init__.py to __init__.cpython-310.pyc
+[1.072s] running install_data
+[1.072s] copying resource/odom -> /home/chienle/Desktop/skid_robot_v2/install/odom/share/ament_index/resource_index/packages
+[1.072s] copying package.xml -> /home/chienle/Desktop/skid_robot_v2/install/odom/share/odom
+[1.072s] running install_egg_info
+[1.073s] Copying ../../../build/odom/odom.egg-info to /home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages/odom-0.0.0-py3.10.egg-info
+[1.073s] running install_scripts
+[1.088s] Installing odom script to /home/chienle/Desktop/skid_robot_v2/install/odom/lib/odom
+[1.088s] writing list of installed files to '/home/chienle/Desktop/skid_robot_v2/build/odom/install.log'
+[1.104s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/src/localization/odom' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/odom build --build-base /home/chienle/Desktop/skid_robot_v2/build/odom/build install --record /home/chienle/Desktop/skid_robot_v2/build/odom/install.log --single-version-externally-managed install_data --force

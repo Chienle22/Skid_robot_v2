@@ -1,0 +1,164 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"microstrain_setup_library_install",
+			"microstrain_setup_install_headers",
+			"microstrain_generate_package_config"
+		],
+		"files" : 
+		[
+			"microstrain_inertial_driver_common/mip_sdk/cmake/microstrain_utilities.cmake",
+			"microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 9
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "mip_extras",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/libmip_extras.a"
+			],
+			"targetId" : "mip_extras::@5040837ab51119ca09fe",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/mip/extras",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/composite_result.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/mip/extras",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/descriptor_id.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/mip/extras",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/firmware_version.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/mip/extras",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/mip_extras_all.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/mip/extras",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/platform_connection.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "mip_extras",
+			"destination" : "share/cmake/mip_extras",
+			"paths" : 
+			[
+				"/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver/microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/mip_extras-config.cmake",
+				"/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver/microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras/mip_extras-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras",
+		"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/mip/extras"
+	}
+}

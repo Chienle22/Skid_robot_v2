@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target microstrain[0m
+[  4%] Built target microstrain
+[35m[1mConsolidate compiler generated dependencies of target microstrain_recording_connection[0m
+[35m[1mConsolidate compiler generated dependencies of target microstrain_serial[0m
+[35m[1mConsolidate compiler generated dependencies of target mip[0m
+[ 10%] Built target microstrain_serial
+[ 10%] Built target microstrain_recording_connection
+[ 60%] Built target mip
+[35m[1mConsolidate compiler generated dependencies of target microstrain_inertial_driver_lifecycle_node[0m
+[35m[1mConsolidate compiler generated dependencies of target microstrain_inertial_driver_node[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/src/microstrain_inertial_driver_lifecycle.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver_node.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/node_common.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/node_common.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/src/microstrain_inertial_driver_lifecycle_node.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/services.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/services.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_main.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_publisher_mapping.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_publisher_mapping.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_main.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:104: CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 88%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_aux.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:160: CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/build.make:160: CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....

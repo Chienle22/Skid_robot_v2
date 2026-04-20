@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmicrostrain_serial.a CMakeFiles/microstrain_serial.dir/serial_port.c.o CMakeFiles/microstrain_serial.dir/__/__/__/__/cpp/microstrain/connections/serial/serial_connection.cpp.o
+/usr/bin/ranlib libmicrostrain_serial.a

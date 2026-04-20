@@ -1,0 +1,26 @@
+[0.636s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/ps3': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ps3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ps3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/ps3/build --no-deps symlink_data
+[0.888s] running develop
+[1.044s] running egg_info
+[1.044s] creating ps3.egg-info
+[1.045s] writing ps3.egg-info/PKG-INFO
+[1.045s] writing dependency_links to ps3.egg-info/dependency_links.txt
+[1.045s] writing entry points to ps3.egg-info/entry_points.txt
+[1.045s] writing requirements to ps3.egg-info/requires.txt
+[1.045s] writing top-level names to ps3.egg-info/top_level.txt
+[1.045s] writing manifest file 'ps3.egg-info/SOURCES.txt'
+[1.046s] reading manifest file 'ps3.egg-info/SOURCES.txt'
+[1.047s] writing manifest file 'ps3.egg-info/SOURCES.txt'
+[1.048s] running build_ext
+[1.048s] Creating /home/chienle/Desktop/skid_robot_v2/install/ps3/lib/python3.10/site-packages/ps3.egg-link (link to .)
+[1.049s] Installing ps3 script to /home/chienle/Desktop/skid_robot_v2/install/ps3/lib/ps3
+[1.049s] 
+[1.049s] Installed /home/chienle/Desktop/skid_robot_v2/build/ps3
+[1.049s] running symlink_data
+[1.049s] creating /home/chienle/Desktop/skid_robot_v2/install/ps3/share/ament_index
+[1.049s] creating /home/chienle/Desktop/skid_robot_v2/install/ps3/share/ament_index/resource_index
+[1.049s] creating /home/chienle/Desktop/skid_robot_v2/install/ps3/share/ament_index/resource_index/packages
+[1.049s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/ps3/resource/ps3 -> /home/chienle/Desktop/skid_robot_v2/install/ps3/share/ament_index/resource_index/packages
+[1.049s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/ps3/package.xml -> /home/chienle/Desktop/skid_robot_v2/install/ps3/share/ps3
+[1.050s] creating /home/chienle/Desktop/skid_robot_v2/install/ps3/share/ps3/launch
+[1.050s] symbolically linking /home/chienle/Desktop/skid_robot_v2/build/ps3/launch/ps3.launch.xml -> /home/chienle/Desktop/skid_robot_v2/install/ps3/share/ps3/launch
+[1.078s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/ps3' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ps3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ps3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/ps3/build --no-deps symlink_data

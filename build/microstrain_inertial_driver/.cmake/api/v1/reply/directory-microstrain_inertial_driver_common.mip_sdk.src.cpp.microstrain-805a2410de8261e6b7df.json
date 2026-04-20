@@ -1,0 +1,227 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"microstrain_setup_install_headers"
+		],
+		"files" : 
+		[
+			"microstrain_inertial_driver_common/mip_sdk/cmake/microstrain_utilities.cmake",
+			"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/c/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/embedded_time.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/c/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/logging.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/c/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/platform.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/c/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/serialization.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/embedded_time.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/index.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/logging.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/platform.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/serialization.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/span.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain/serialization",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/serialization/readwrite.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/cpp/microstrain/serialization",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/serialization/serializer.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain",
+		"source" : "microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain"
+	}
+}

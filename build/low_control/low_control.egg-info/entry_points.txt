@@ -1,0 +1,4 @@
+[console_scripts]
+ZLA8015D_pub = low_control.ZLA8015D_pub:main
+kinematic = low_control.kinematic:main
+

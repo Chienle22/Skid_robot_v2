@@ -1,0 +1,1 @@
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/rosidl_cmake/srv/Mip3dmGpioStateWrite_Request.msg

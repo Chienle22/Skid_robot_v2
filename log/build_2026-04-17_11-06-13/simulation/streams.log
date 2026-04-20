@@ -1,0 +1,16 @@
+[0.616s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/simulation': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/simulation/build --no-deps symlink_data
+[0.863s] running develop
+[1.025s] running egg_info
+[1.025s] writing simulation.egg-info/PKG-INFO
+[1.025s] writing dependency_links to simulation.egg-info/dependency_links.txt
+[1.025s] writing entry points to simulation.egg-info/entry_points.txt
+[1.025s] writing requirements to simulation.egg-info/requires.txt
+[1.025s] writing top-level names to simulation.egg-info/top_level.txt
+[1.027s] reading manifest file 'simulation.egg-info/SOURCES.txt'
+[1.028s] writing manifest file 'simulation.egg-info/SOURCES.txt'
+[1.030s] running build_ext
+[1.030s] Creating /home/chienle/Desktop/skid_robot_v2/install/simulation/lib/python3.10/site-packages/simulation.egg-link (link to .)
+[1.031s] 
+[1.031s] Installed /home/chienle/Desktop/skid_robot_v2/build/simulation
+[1.031s] running symlink_data
+[1.056s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/simulation' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/simulation/build --no-deps symlink_data

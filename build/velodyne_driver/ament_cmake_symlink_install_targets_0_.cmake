@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chienle/Desktop/skid_robot_v2/build/velodyne_driver/velodyne_driver_node" "TARGETS" "velodyne_driver_node" "DESTINATION" "lib/velodyne_driver")

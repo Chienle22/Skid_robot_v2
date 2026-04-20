@@ -1,0 +1,77 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatusStatus.msg
+// generated code does not contain a copyright notice
+
+
+module microstrain_inertial_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message definition for the Status field of https://s3.amazonaws.com/files.microstrain.com/GQ7+User+Manual/external_content/dcp/Data/filter_data/data/mip_field_filter_gnss_pos_aid_status.htm?Highlight=gnss%20position%20aiding" "\n"
+      "  Note: This message will never be published on it's own, only included in other messages.")
+    struct MipFilterGnssPositionAidingStatusStatus {
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is processing raw range information from this GNSS module")
+      boolean tight_coupling;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is processing RTK corrections from this GNSS module")
+      boolean differential;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter has an RTK integer fix from this GNSS module, indicating the best position performance possible")
+      boolean integer_fix;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using GPS L1 measurements")
+      boolean gps_l1;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using GPS L2 measurements")
+      boolean gps_l2;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using GPS L5 measurements")
+      boolean gps_l5;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using GLONASS L1 measurements")
+      boolean glo_l1;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using GLONASS L2 measurements")
+      boolean glo_l2;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using Galileo E1 measurements")
+      boolean gal_e1;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using Galileo E5 measurements")
+      boolean gal_e5;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using Galileo E6 measurements")
+      boolean gal_e6;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using Beidou B1 measurements (not enabled on GQ7 currently)")
+      boolean bei_b1;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using Beidou B2 measurements (not enabled on GQ7 currently)")
+      boolean bei_b2;
+
+      @verbatim (language="comment", text=
+        "If 1, the Kalman filter is using Beidou B3 measurements (not enabled on GQ7 currently)")
+      boolean bei_b3;
+
+      @verbatim (language="comment", text=
+        "If 1, this GNSS module is reporting no position fix")
+      boolean no_fix;
+
+      @verbatim (language="comment", text=
+        "If 1, there is likely an issue with the antenna offset for this GNSS module")
+      boolean config_error;
+    };
+  };
+};

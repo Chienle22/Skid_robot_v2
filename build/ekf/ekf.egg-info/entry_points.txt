@@ -1,0 +1,4 @@
+[console_scripts]
+listener = ekf.minimal_subscriber:main
+talker = ekf.minimal_publisher:main
+

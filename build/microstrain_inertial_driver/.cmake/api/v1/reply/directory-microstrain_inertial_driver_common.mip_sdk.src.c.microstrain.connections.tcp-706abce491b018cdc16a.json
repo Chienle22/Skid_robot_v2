@@ -1,0 +1,100 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"microstrain_setup_library_install",
+			"microstrain_setup_install_headers",
+			"microstrain_generate_package_config"
+		],
+		"files" : 
+		[
+			"microstrain_inertial_driver_common/mip_sdk/cmake/microstrain_utilities.cmake",
+			"microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 5
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "microstrain_socket",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp/libmicrostrain_socket.a"
+			],
+			"targetId" : "microstrain_socket::@b484ebecd3e7f3bf4731",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/microstrain/c/microstrain/connections/tcp",
+			"paths" : 
+			[
+				"microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp/tcp_socket.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "microstrain_socket",
+			"destination" : "share/cmake/microstrain_socket",
+			"paths" : 
+			[
+				"/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver/microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp/microstrain_socket-config.cmake",
+				"/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver/microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp/microstrain_socket-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp",
+		"source" : "microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/tcp"
+	}
+}

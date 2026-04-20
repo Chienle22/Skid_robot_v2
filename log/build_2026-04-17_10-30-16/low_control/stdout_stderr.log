@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating low_control.egg-info
+writing low_control.egg-info/PKG-INFO
+writing dependency_links to low_control.egg-info/dependency_links.txt
+writing entry points to low_control.egg-info/entry_points.txt
+writing requirements to low_control.egg-info/requires.txt
+writing top-level names to low_control.egg-info/top_level.txt
+writing manifest file 'low_control.egg-info/SOURCES.txt'
+reading manifest file 'low_control.egg-info/SOURCES.txt'
+writing manifest file 'low_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low-control.egg-link (link to .)
+Installing ZLA8015D_pub script to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/low_control
+Installing kinematic script to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/low_control
+
+Installed /home/chienle/Desktop/skid_robot_v2/build/low_control
+running symlink_data
+creating /home/chienle/Desktop/skid_robot_v2/install/low_control/share/ament_index
+creating /home/chienle/Desktop/skid_robot_v2/install/low_control/share/ament_index/resource_index
+creating /home/chienle/Desktop/skid_robot_v2/install/low_control/share/ament_index/resource_index/packages
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/low_control/resource/low_control -> /home/chienle/Desktop/skid_robot_v2/install/low_control/share/ament_index/resource_index/packages
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/low_control/package.xml -> /home/chienle/Desktop/skid_robot_v2/install/low_control/share/low_control
+creating /home/chienle/Desktop/skid_robot_v2/install/low_control/share/low_control/launch
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/low_control/launch/ps3.launch.xml -> /home/chienle/Desktop/skid_robot_v2/install/low_control/share/low_control/launch
+symbolically linking /home/chienle/Desktop/skid_robot_v2/build/low_control/launch/low_level_control.launch.xml -> /home/chienle/Desktop/skid_robot_v2/install/low_control/share/low_control/launch

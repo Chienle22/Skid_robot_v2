@@ -1,0 +1,1 @@
+/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/rosidl_generator_rs/microstrain_inertial_msgs/rust/src/srv/rmw.rs

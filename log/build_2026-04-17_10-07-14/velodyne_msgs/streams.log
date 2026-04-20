@@ -1,0 +1,245 @@
+[0.010s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake /home/chienle/Desktop/skid_robot_v2/src/hardware/velodyne/velodyne_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs
+[0.087s] -- The C compiler identification is GNU 11.4.0
+[0.167s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.301s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.635s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.710s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.751s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.791s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.796s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.805s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.835s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.851s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.866s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[1.191s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.194s] -- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.196s] -- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.199s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.640s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.815s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.841s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.843s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.871s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.871s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.871s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.871s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.898s] -- Found PythonExtra: .so  
+[1.965s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.969s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.074s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.094s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.095s] -- Added test 'lint_cmake' to check CMake code style
+[2.096s] -- Added test 'xmllint' to check XML markup files
+[2.101s] -- Configuring done
+[2.139s] -- Generating done
+[2.153s] -- Build files have been written to: /home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs
+[2.165s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake /home/chienle/Desktop/skid_robot_v2/src/hardware/velodyne/velodyne_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs
+[2.168s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs -- -j20 -l20
+[2.222s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.237s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.241s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.255s] [  7%] Built target ament_cmake_python_symlink_velodyne_msgs
+[2.638s] [  7%] Built target velodyne_msgs__rs
+[2.670s] running egg_info
+[2.671s] creating velodyne_msgs.egg-info
+[2.671s] writing velodyne_msgs.egg-info/PKG-INFO
+[2.672s] writing dependency_links to velodyne_msgs.egg-info/dependency_links.txt
+[2.672s] writing top-level names to velodyne_msgs.egg-info/top_level.txt
+[2.672s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.681s] reading manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.681s] writing manifest file 'velodyne_msgs.egg-info/SOURCES.txt'
+[2.707s] [  7%] Built target velodyne_msgs__cpp
+[2.715s] [ 10%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_packet__functions.c.o[0m
+[2.715s] [ 12%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_c.dir/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_scan__functions.c.o[0m
+[2.722s] [ 12%] Built target ament_cmake_python_build_velodyne_msgs_egg
+[2.722s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.724s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.725s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.789s] [ 22%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_generator_c.so[0m
+[2.849s] [ 22%] Built target velodyne_msgs__rosidl_generator_c
+[2.868s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.868s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.868s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.152s] [ 32%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[3.153s] [ 35%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[3.183s] [ 37%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_packet__type_support.cpp.o[0m
+[3.186s] [ 40%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/velodyne_msgs/msg/detail/dds_fastrtps/velodyne_scan__type_support.cpp.o[0m
+[3.263s] [ 42%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_scan__type_support.cpp.o[0m
+[3.263s] [ 45%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/velodyne_msgs/msg/detail/velodyne_packet__type_support.cpp.o[0m
+[3.335s] [ 47%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_packet__type_support.c.o[0m
+[3.339s] [ 50%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/velodyne_msgs/msg/detail/velodyne_scan__type_support.c.o[0m
+[3.350s] [ 52%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_packet__type_support_c.cpp.o[0m
+[3.350s] [ 55%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_scan__type_support_c.cpp.o[0m
+[3.396s] [ 57%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_packet__type_support.cpp.o[0m
+[3.398s] [ 60%] [32mBuilding CXX object CMakeFiles/velodyne_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/velodyne_msgs/msg/velodyne_scan__type_support.cpp.o[0m
+[3.401s] [ 62%] [32m[1mLinking C shared library libvelodyne_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.450s] [ 65%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_c.so[0m
+[3.459s] [ 65%] Built target velodyne_msgs__rosidl_typesupport_introspection_c
+[3.521s] [ 65%] Built target velodyne_msgs__rosidl_typesupport_c
+[3.658s] [ 67%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_cpp.so[0m
+[3.737s] [ 67%] Built target velodyne_msgs__rosidl_typesupport_cpp
+[3.847s] [ 70%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.892s] [ 72%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.962s] [ 72%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c
+[3.990s] [ 75%] [32m[1mLinking CXX shared library libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.000s] [ 75%] Built target velodyne_msgs__rosidl_typesupport_introspection_cpp
+[4.093s] [ 75%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_cpp
+[4.123s] [ 75%] Built target velodyne_msgs
+[4.153s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.629s] [ 77%] Built target velodyne_msgs__py
+[4.661s] [ 80%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_scan_s.c.o[0m
+[4.661s] [ 82%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_generator_py.dir/rosidl_generator_py/velodyne_msgs/msg/_velodyne_packet_s.c.o[0m
+[4.811s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so[0m
+[4.865s] [ 85%] Built target velodyne_msgs__rosidl_generator_py
+[4.896s] [ 87%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.897s] [ 90%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.897s] [ 92%] [32mBuilding C object CMakeFiles/velodyne_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.026s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.026s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.033s] [100%] [32m[1mLinking C shared library rosidl_generator_py/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.084s] [100%] Built target velodyne_msgs__rosidl_typesupport_introspection_c__pyext
+[5.087s] [100%] Built target velodyne_msgs__rosidl_typesupport_c__pyext
+[5.090s] [100%] Built target velodyne_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.109s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs -- -j20 -l20
+[5.110s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs
+[5.120s] -- Install configuration: ""
+[5.120s] -- Execute custom install script
+[5.120s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/ament_index/resource_index/rosidl_interfaces/velodyne_msgs
+[5.133s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__functions.h
+[5.145s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.h
+[5.156s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.h
+[5.169s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__functions.h
+[5.180s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.h
+[5.190s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.h
+[5.200s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.210s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.h
+[5.220s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.h
+[5.229s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.sh
+[5.240s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/environment/library_path.dsv
+[5.251s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
+[5.262s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_c.h
+[5.273s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.284s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__builder.hpp
+[5.295s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__struct.hpp
+[5.305s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__traits.hpp
+[5.316s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__type_support.hpp
+[5.327s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__builder.hpp
+[5.337s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__struct.hpp
+[5.349s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__traits.hpp
+[5.360s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__type_support.hpp
+[5.373s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.386s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_packet.hpp
+[5.398s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/velodyne_scan.hpp
+[5.411s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[5.425s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[5.437s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.450s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_c.h
+[5.462s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_c.h
+[5.476s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.489s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_introspection_cpp.hpp
+[5.501s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/include/velodyne_msgs/velodyne_msgs/msg/detail/velodyne_scan__rosidl_typesupport_introspection_cpp.hpp
+[5.514s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.sh
+[5.526s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/environment/pythonpath.dsv
+[5.541s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/PKG-INFO
+[5.552s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/SOURCES.txt
+[5.565s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/dependency_links.txt
+[5.577s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs-2.5.1-py3.10.egg-info/top_level.txt
+[5.592s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py
+[5.606s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_c.c
+[5.618s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.629s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/_velodyne_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.641s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/libvelodyne_msgs__rosidl_generator_py.so
+[5.653s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py
+[5.664s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py
+[5.675s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet_s.c
+[5.688s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py
+[5.700s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan_s.c
+[5.712s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.723s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.735s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.748s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.748s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.749s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/velodyne_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.750s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/ament_index/resource_index/rust_packages/velodyne_msgs
+[5.762s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/rust/Cargo.toml
+[5.774s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/rust/build.rs
+[5.785s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/rust/src/lib.rs
+[5.796s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/rust/src/msg.rs
+[5.809s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/rust/src/msg/rmw.rs
+[5.822s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.idl
+[5.835s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.idl
+[5.845s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/msg/VelodynePacket.msg
+[5.856s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/msg/VelodyneScan.msg
+[5.868s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/ament_index/resource_index/package_run_dependencies/velodyne_msgs
+[5.881s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/ament_index/resource_index/parent_prefix_path/velodyne_msgs
+[5.892s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.sh
+[5.905s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/environment/ament_prefix_path.dsv
+[5.917s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/environment/path.sh
+[5.930s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/environment/path.dsv
+[5.943s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/local_setup.bash
+[5.956s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/local_setup.sh
+[5.969s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/local_setup.zsh
+[5.981s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/local_setup.dsv
+[5.994s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/package.dsv
+[6.007s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/ament_index/resource_index/packages/velodyne_msgs
+[6.021s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake-extras.cmake
+[6.032s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.044s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.058s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.070s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.082s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.095s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.108s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig.cmake
+[6.120s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgsConfig-version.cmake
+[6.133s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/package.xml
+[6.146s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so
+[6.146s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_c.so" to ""
+[6.146s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so
+[6.147s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.147s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.147s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.147s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so
+[6.149s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.149s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so
+[6.149s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_c.so" to ""
+[6.149s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so
+[6.151s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.151s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so
+[6.151s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_typesupport_cpp.so" to ""
+[6.200s] Listing '/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs'...
+[6.200s] Compiling '/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/__init__.py'...
+[6.200s] Listing '/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg'...
+[6.201s] Compiling '/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/__init__.py'...
+[6.201s] Compiling '/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_packet.py'...
+[6.201s] Compiling '/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages/velodyne_msgs/msg/_velodyne_scan.py'...
+[6.207s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so
+[6.208s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib/libvelodyne_msgs__rosidl_generator_py.so" to ""
+[6.208s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport.cmake
+[6.208s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.208s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.208s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.209s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_cppExport.cmake
+[6.209s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.209s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.209s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.209s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.209s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport.cmake
+[6.209s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.209s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.210s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.210s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport.cmake
+[6.210s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/velodyne_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.210s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport.cmake
+[6.210s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/share/velodyne_msgs/cmake/export_velodyne_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.214s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_description:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs

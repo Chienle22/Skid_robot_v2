@@ -1,0 +1,48 @@
+[0.014s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver': AMENT_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver -- -j20 -l20
+[0.095s] [  4%] Built target microstrain
+[0.127s] [  8%] Built target microstrain_serial
+[0.128s] [ 10%] Built target microstrain_recording_connection
+[0.142s] [ 60%] Built target mip
+[0.187s] [ 61%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver_node.cpp.o[0m
+[0.188s] [ 62%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[0.189s] [ 64%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver.cpp.o[0m
+[0.190s] [ 65%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[0.190s] [ 68%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/src/microstrain_inertial_driver_lifecycle.cpp.o[0m
+[0.190s] [ 68%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/src/microstrain_inertial_driver_lifecycle_node.cpp.o[0m
+[0.190s] [ 69%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[0.190s] [ 70%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[0.192s] [ 73%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/node_common.cpp.o[0m
+[0.192s] [ 73%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/node_common.cpp.o[0m
+[0.192s] [ 74%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[0.192s] [ 77%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[0.192s] [ 77%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/services.cpp.o[0m
+[0.193s] [ 78%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/services.cpp.o[0m
+[0.203s] [ 81%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_aux.cpp.o[0m
+[0.204s] [ 85%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device.cpp.o[0m
+[0.204s] [ 85%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device.cpp.o[0m
+[0.205s] [ 81%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_publisher_mapping.cpp.o[0m
+[0.205s] [ 85%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_main.cpp.o[0m
+[0.205s] [ 86%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_publisher_mapping.cpp.o[0m
+[13.384s] [ 88%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_connection.cpp.o[0m
+[18.971s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[18.973s] compilation terminated.
+[18.973s] gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:104: CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o] Error 1
+[18.974s] gmake[2]: *** Waiting for unfinished jobs....
+[31.420s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[31.424s] compilation terminated.
+[31.426s] gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/build.make:160: CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o] Error 1
+[31.426s] gmake[2]: *** Waiting for unfinished jobs....
+[162.834s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[162.834s] compilation terminated.
+[162.837s] gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:160: CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o] Error 1
+[269.312s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[269.316s] compilation terminated.
+[269.317s] gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:118: CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o] Error 1
+[356.568s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[356.573s] compilation terminated.
+[356.573s] gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:76: CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver.cpp.o] Error 1
+[365.245s] gmake[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/microstrain_inertial_driver_node.dir/all] Error 2
+[365.245s] gmake[1]: *** Waiting for unfinished jobs....
+[384.432s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/all] Error 2
+[384.432s] gmake: *** [Makefile:146: all] Error 2
+[384.447s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver' returned '2': AMENT_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver -- -j20 -l20
