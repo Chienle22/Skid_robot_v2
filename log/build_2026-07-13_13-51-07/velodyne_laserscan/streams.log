@@ -1,0 +1,40 @@
+[0.006s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/velodyne_laserscan -- -j20 -l20
+[0.098s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[5.887s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[6.204s] [ 50%] Built target velodyne_laserscan
+[6.231s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[8.093s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[8.241s] [100%] Built target velodyne_laserscan_node
+[8.250s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/velodyne_laserscan -- -j20 -l20
+[8.251s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/velodyne_laserscan
+[8.260s] -- Install configuration: ""
+[8.260s] -- Execute custom install script
+[8.261s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[8.261s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[8.262s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[8.262s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[8.262s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[8.262s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[8.262s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[8.262s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[8.263s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[8.263s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[8.263s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[8.263s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[8.263s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[8.263s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[8.263s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[8.264s] -- Symlinking: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[8.275s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[8.275s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[8.275s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.276s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_targets-extras.cmake
+[8.276s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.276s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[8.276s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[8.276s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[8.276s] -- Installing: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[8.282s] -- Set runtime path of "/home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/lib/libvelodyne_laserscan.so" to ""
+[8.282s] -- Up-to-date: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport.cmake
+[8.282s] -- Up-to-date: /home/chienle/Desktop/skid_robot_v2/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport-noconfig.cmake
+[8.285s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/velodyne_laserscan

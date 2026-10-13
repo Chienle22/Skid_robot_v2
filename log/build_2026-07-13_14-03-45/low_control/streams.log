@@ -1,0 +1,18 @@
+[1.338s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/low_control': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/low_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/low_control/build --no-deps symlink_data
+[1.895s] running develop
+[2.325s] running egg_info
+[2.325s] writing low_control.egg-info/PKG-INFO
+[2.326s] writing dependency_links to low_control.egg-info/dependency_links.txt
+[2.326s] writing entry points to low_control.egg-info/entry_points.txt
+[2.327s] writing requirements to low_control.egg-info/requires.txt
+[2.327s] writing top-level names to low_control.egg-info/top_level.txt
+[2.330s] reading manifest file 'low_control.egg-info/SOURCES.txt'
+[2.332s] writing manifest file 'low_control.egg-info/SOURCES.txt'
+[2.334s] running build_ext
+[2.335s] Creating /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low-control.egg-link (link to .)
+[2.336s] Installing differential_kinematics_node script to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/low_control
+[2.337s] Installing kinematic script to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/low_control
+[2.337s] 
+[2.337s] Installed /home/chienle/Desktop/skid_robot_v2/build/low_control
+[2.337s] running symlink_data
+[2.451s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/low_control' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/low_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/low_control/build --no-deps symlink_data

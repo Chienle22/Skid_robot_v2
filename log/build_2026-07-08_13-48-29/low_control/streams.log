@@ -1,0 +1,44 @@
+[0.447s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/low_control': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/low_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/low_control/build
+[0.631s] running develop
+[0.746s] Removing /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low-control.egg-link (link to .)
+[0.762s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/low_control' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/low_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/low_control/build
+[0.763s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/src/hardware/low_control': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/low_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/low_control build --build-base /home/chienle/Desktop/skid_robot_v2/build/low_control/build install --record /home/chienle/Desktop/skid_robot_v2/build/low_control/install.log --single-version-externally-managed install_data --force
+[0.930s] running egg_info
+[0.930s] writing ../../../build/low_control/low_control.egg-info/PKG-INFO
+[0.930s] writing dependency_links to ../../../build/low_control/low_control.egg-info/dependency_links.txt
+[0.930s] writing entry points to ../../../build/low_control/low_control.egg-info/entry_points.txt
+[0.930s] writing requirements to ../../../build/low_control/low_control.egg-info/requires.txt
+[0.930s] writing top-level names to ../../../build/low_control/low_control.egg-info/top_level.txt
+[0.932s] reading manifest file '../../../build/low_control/low_control.egg-info/SOURCES.txt'
+[0.932s] adding license file 'LICENSE'
+[0.933s] writing manifest file '../../../build/low_control/low_control.egg-info/SOURCES.txt'
+[0.933s] running build
+[0.933s] running build_py
+[0.933s] creating /home/chienle/Desktop/skid_robot_v2/build/low_control/build
+[0.933s] creating /home/chienle/Desktop/skid_robot_v2/build/low_control/build/lib
+[0.933s] creating /home/chienle/Desktop/skid_robot_v2/build/low_control/build/lib/low_control
+[0.933s] copying low_control/kinematic.py -> /home/chienle/Desktop/skid_robot_v2/build/low_control/build/lib/low_control
+[0.933s] copying low_control/ZLA8015D_pub.py -> /home/chienle/Desktop/skid_robot_v2/build/low_control/build/lib/low_control
+[0.933s] copying low_control/__init__.py -> /home/chienle/Desktop/skid_robot_v2/build/low_control/build/lib/low_control
+[0.933s] running install
+[0.933s] running install_lib
+[0.934s] creating /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low_control
+[0.934s] copying /home/chienle/Desktop/skid_robot_v2/build/low_control/build/lib/low_control/kinematic.py -> /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low_control
+[0.934s] copying /home/chienle/Desktop/skid_robot_v2/build/low_control/build/lib/low_control/ZLA8015D_pub.py -> /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low_control
+[0.934s] copying /home/chienle/Desktop/skid_robot_v2/build/low_control/build/lib/low_control/__init__.py -> /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low_control
+[0.934s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low_control/kinematic.py to kinematic.cpython-310.pyc
+[0.935s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low_control/ZLA8015D_pub.py to ZLA8015D_pub.cpython-310.pyc
+[0.935s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low_control/__init__.py to __init__.cpython-310.pyc
+[0.935s] running install_data
+[0.935s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (ZLA8015D_pub.py, line 207)
+[0.935s] copying resource/low_control -> /home/chienle/Desktop/skid_robot_v2/install/low_control/share/ament_index/resource_index/packages
+[0.936s] copying package.xml -> /home/chienle/Desktop/skid_robot_v2/install/low_control/share/low_control
+[0.936s] copying launch/ps3.launch.xml -> /home/chienle/Desktop/skid_robot_v2/install/low_control/share/low_control/launch
+[0.936s] copying launch/low_level_control.launch.xml -> /home/chienle/Desktop/skid_robot_v2/install/low_control/share/low_control/launch
+[0.936s] running install_egg_info
+[0.937s] Copying ../../../build/low_control/low_control.egg-info to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages/low_control-0.0.0-py3.10.egg-info
+[0.938s] running install_scripts
+[0.952s] Installing ZLA8015D_pub script to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/low_control
+[0.952s] Installing kinematic script to /home/chienle/Desktop/skid_robot_v2/install/low_control/lib/low_control
+[0.952s] writing list of installed files to '/home/chienle/Desktop/skid_robot_v2/build/low_control/install.log'
+[0.966s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/src/hardware/low_control' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/low_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/low_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/low_control build --build-base /home/chienle/Desktop/skid_robot_v2/build/low_control/build install --record /home/chienle/Desktop/skid_robot_v2/build/low_control/install.log --single-version-externally-managed install_data --force

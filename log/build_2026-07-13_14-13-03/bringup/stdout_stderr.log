@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing bringup.egg-info/PKG-INFO
+writing dependency_links to bringup.egg-info/dependency_links.txt
+writing entry points to bringup.egg-info/entry_points.txt
+writing requirements to bringup.egg-info/requires.txt
+writing top-level names to bringup.egg-info/top_level.txt
+reading manifest file 'bringup.egg-info/SOURCES.txt'
+writing manifest file 'bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/chienle/Desktop/skid_robot_v2/install/bringup/lib/python3.10/site-packages/bringup.egg-link (link to .)
+
+Installed /home/chienle/Desktop/skid_robot_v2/build/bringup
+running symlink_data

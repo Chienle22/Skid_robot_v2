@@ -8,6 +8,7 @@ setup.py
 ../../build/bringup/bringup.egg-info/requires.txt
 ../../build/bringup/bringup.egg-info/top_level.txt
 ../../build/bringup/bringup.egg-info/zip-safe
+launch/bringup_2.py
 launch/bringup_launch.py
 resource/bringup
 test/test_copyright.py

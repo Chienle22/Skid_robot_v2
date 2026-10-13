@@ -22,8 +22,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ZLA8015D_pub = low_control.ZLA8015D_pub:main',
+           # 'ZLA8015D_pub = low_control.ZLA8015D_pub:main',
             'kinematic = low_control.kinematic:main',
+            'differential_kinematics_node = low_control.kinematic:main',
         ],
     },
 )
