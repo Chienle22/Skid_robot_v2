@@ -1,4 +1,0 @@
-source;share/microstrain_inertial_driver/local_setup.bash
-source;share/microstrain_inertial_driver/local_setup.dsv
-source;share/microstrain_inertial_driver/local_setup.sh
-source;share/microstrain_inertial_driver/local_setup.zsh

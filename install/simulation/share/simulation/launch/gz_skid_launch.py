@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/build/simulation/launch/gz_skid_launch.py

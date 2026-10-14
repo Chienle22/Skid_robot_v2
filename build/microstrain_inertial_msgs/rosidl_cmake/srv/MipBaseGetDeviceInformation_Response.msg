@@ -1,2 +1,0 @@
-
-microstrain_inertial_msgs/MipBaseDeviceInfo device_info
