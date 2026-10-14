@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/src/mapping/config/slam_2d.lua

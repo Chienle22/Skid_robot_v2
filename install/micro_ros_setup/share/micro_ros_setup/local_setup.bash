@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/build/micro_ros_setup/ament_cmake_environment_hooks/local_setup.bash

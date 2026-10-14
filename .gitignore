@@ -1,2 +1,7 @@
 __pycache__/
 *.py[cod]
+
+# ROS 2 generated files
+/build/
+/install/
+/log/

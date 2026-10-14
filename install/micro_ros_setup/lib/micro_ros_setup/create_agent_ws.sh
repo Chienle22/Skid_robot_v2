@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/src/micro_ros_setup/scripts/create_agent_ws.sh

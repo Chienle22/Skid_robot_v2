@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver/ament_cmake_core/microstrain_inertial_driverConfig.cmake

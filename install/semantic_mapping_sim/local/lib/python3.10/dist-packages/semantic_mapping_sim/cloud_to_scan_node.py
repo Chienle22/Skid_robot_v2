@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/src/semantic_mapping_sim/semantic_mapping_sim/cloud_to_scan_node.py

@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/build/mapping/launch/cartographer_velodyne_launch.py

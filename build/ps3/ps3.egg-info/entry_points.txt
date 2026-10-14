@@ -1,3 +1,0 @@
-[console_scripts]
-ps3_teleop_node = ps3.ps3:main
-

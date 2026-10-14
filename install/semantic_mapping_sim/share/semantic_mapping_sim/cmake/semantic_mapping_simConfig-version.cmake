@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim/ament_cmake_core/semantic_mapping_simConfig-version.cmake

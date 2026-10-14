@@ -1,4 +1,0 @@
-[console_scripts]
-differential_kinematics_node = low_control.kinematic:main
-kinematic = low_control.kinematic:main
-

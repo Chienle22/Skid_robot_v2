@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/src/bringup/launch/bringup_launch.py

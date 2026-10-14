@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_msgs/rosidl_generator_py/microstrain_inertial_msgs/msg/_mip_filter_aiding_measurement_summary_s.c

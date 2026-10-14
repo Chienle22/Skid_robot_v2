@@ -1,9 +1,0 @@
-[0.024s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/velodyne_pointcloud -- -j20 -l20
-[0.110s] [ 11%] Built target gtest_main
-[0.120s] [ 22%] Built target gtest
-[0.120s] [ 38%] Built target velodyne_rawdata
-[0.128s] [ 55%] Built target velodyne_cloud_types
-[0.152s] [35m[1mConsolidate compiler generated dependencies of target test_calibration[0m
-[0.181s] [ 66%] Built target test_row_step
-[0.189s] [ 77%] Built target test_calibration
-[0.194s] [ 83%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m

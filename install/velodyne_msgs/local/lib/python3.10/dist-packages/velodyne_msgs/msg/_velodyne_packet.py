@@ -1,1 +1,0 @@
-/home/chienle/Desktop/skid_robot_v2/build/velodyne_msgs/rosidl_generator_py/velodyne_msgs/msg/_velodyne_packet.py
