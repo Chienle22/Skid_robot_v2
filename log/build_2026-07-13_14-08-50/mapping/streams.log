@@ -1,0 +1,16 @@
+[1.590s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/mapping': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/mapping/build --no-deps symlink_data
+[1.978s] running develop
+[2.419s] running egg_info
+[2.419s] writing mapping.egg-info/PKG-INFO
+[2.419s] writing dependency_links to mapping.egg-info/dependency_links.txt
+[2.420s] writing entry points to mapping.egg-info/entry_points.txt
+[2.420s] writing requirements to mapping.egg-info/requires.txt
+[2.420s] writing top-level names to mapping.egg-info/top_level.txt
+[2.425s] reading manifest file 'mapping.egg-info/SOURCES.txt'
+[2.430s] writing manifest file 'mapping.egg-info/SOURCES.txt'
+[2.436s] running build_ext
+[2.436s] Creating /home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+[2.436s] 
+[2.436s] Installed /home/chienle/Desktop/skid_robot_v2/build/mapping
+[2.436s] running symlink_data
+[2.573s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/mapping' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/mapping/build --no-deps symlink_data

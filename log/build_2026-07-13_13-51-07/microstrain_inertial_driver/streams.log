@@ -1,0 +1,46 @@
+[0.012s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver': AMENT_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/microstrain_inertial_driver -- -j20 -l20
+[0.086s] [  4%] Built target microstrain
+[0.112s] [  5%] [32mBuilding C object microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/serial/CMakeFiles/microstrain_serial.dir/serial_port.c.o[0m
+[0.116s] [  6%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/microstrain/connections/serial/CMakeFiles/microstrain_serial.dir/__/__/__/__/cpp/microstrain/connections/serial/serial_connection.cpp.o[0m
+[0.116s] [  8%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/cpp/microstrain/connections/recording/CMakeFiles/microstrain_recording_connection.dir/recording_connection.cpp.o[0m
+[0.125s] [  9%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/mip_interface.cpp.o[0m
+[0.128s] [ 10%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_filter.cpp.o[0m
+[0.130s] [ 12%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_3dm.cpp.o[0m
+[0.130s] [ 13%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_aiding.cpp.o[0m
+[0.131s] [ 16%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_gnss.cpp.o[0m
+[0.131s] [ 16%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_base.cpp.o[0m
+[0.132s] [ 18%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_rtk.cpp.o[0m
+[0.132s] [ 18%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_sensor.cpp.o[0m
+[0.132s] [ 20%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/commands_system.cpp.o[0m
+[0.132s] [ 21%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_filter.cpp.o[0m
+[0.133s] [ 22%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_gnss.cpp.o[0m
+[0.136s] [ 24%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_system.cpp.o[0m
+[0.139s] [ 25%] [32mBuilding CXX object microstrain_inertial_driver_common/mip_sdk/src/c/mip/CMakeFiles/mip.dir/__/__/cpp/mip/definitions/data_shared.cpp.o[0m
+[0.469s] [ 26%] [32m[1mLinking CXX static library libmicrostrain_recording_connection.a[0m
+[0.554s] [ 28%] [32m[1mLinking CXX static library libmicrostrain_serial.a[0m
+[0.603s] [ 28%] Built target microstrain_recording_connection
+[0.624s] [ 28%] Built target microstrain_serial
+[1.684s] [ 29%] [32m[1mLinking CXX static library libmip.a[0m
+[1.760s] [ 60%] Built target mip
+[1.814s] [ 61%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/src/microstrain_inertial_driver_lifecycle.cpp.o[0m
+[1.819s] [ 64%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[1.819s] [ 64%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/subscribers.cpp.o[0m
+[1.819s] [ 65%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/src/microstrain_inertial_driver_lifecycle_node.cpp.o[0m
+[1.819s] [ 66%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver.cpp.o[0m
+[1.819s] [ 68%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/src/microstrain_inertial_driver_node.cpp.o[0m
+[1.819s] [ 69%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/node_common.cpp.o[0m
+[1.819s] [ 72%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[1.819s] [ 72%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/publishers.cpp.o[0m
+[1.820s] [ 73%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/node_common.cpp.o[0m
+[1.821s] [ 74%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[1.821s] [ 76%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/services.cpp.o[0m
+[1.821s] [ 77%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/services.cpp.o[0m
+[1.821s] [ 78%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/clock_bias_monitor.cpp.o[0m
+[1.821s] [ 80%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_mapping.cpp.o[0m
+[1.822s] [ 81%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/config.cpp.o[0m
+[1.823s] [ 82%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/clock_bias_monitor.cpp.o[0m
+[1.823s] [ 84%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_mapping.cpp.o[0m
+[1.824s] [ 85%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_publisher_mapping.cpp.o[0m
+[1.828s] [ 86%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mappings/mip_publisher_mapping.cpp.o[0m
+[7.422s] [ 88%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device.cpp.o[0m
+[7.422s] [ 89%] [32mBuilding CXX object CMakeFiles/microstrain_inertial_driver_lifecycle_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device.cpp.o[0m

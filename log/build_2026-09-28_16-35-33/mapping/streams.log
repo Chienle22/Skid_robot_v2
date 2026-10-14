@@ -1,0 +1,29 @@
+[0.374s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/mapping': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/mapping/build
+[0.529s] running develop
+[0.636s] Removing /home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages/mapping.egg-link (link to .)
+[0.650s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/mapping' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chienle/Desktop/skid_robot_v2/build/mapping/build
+[0.651s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/src/mapping': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping build --build-base /home/chienle/Desktop/skid_robot_v2/build/mapping/build install --record /home/chienle/Desktop/skid_robot_v2/build/mapping/install.log --single-version-externally-managed install_data --force
+[0.791s] running egg_info
+[0.791s] writing ../../build/mapping/mapping.egg-info/PKG-INFO
+[0.791s] writing dependency_links to ../../build/mapping/mapping.egg-info/dependency_links.txt
+[0.791s] writing entry points to ../../build/mapping/mapping.egg-info/entry_points.txt
+[0.791s] writing requirements to ../../build/mapping/mapping.egg-info/requires.txt
+[0.791s] writing top-level names to ../../build/mapping/mapping.egg-info/top_level.txt
+[0.792s] reading manifest file '../../build/mapping/mapping.egg-info/SOURCES.txt'
+[0.793s] writing manifest file '../../build/mapping/mapping.egg-info/SOURCES.txt'
+[0.793s] running build
+[0.793s] running build_py
+[0.794s] running install
+[0.794s] running install_lib
+[0.795s] creating /home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages/mapping
+[0.795s] copying /home/chienle/Desktop/skid_robot_v2/build/mapping/build/lib/mapping/__init__.py -> /home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages/mapping
+[0.795s] byte-compiling /home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages/mapping/__init__.py to __init__.cpython-310.pyc
+[0.795s] running install_data
+[0.795s] copying resource/mapping -> /home/chienle/Desktop/skid_robot_v2/install/mapping/share/ament_index/resource_index/packages
+[0.795s] copying package.xml -> /home/chienle/Desktop/skid_robot_v2/install/mapping/share/mapping
+[0.795s] copying launch/cartographer_velodyne_launch.py -> /home/chienle/Desktop/skid_robot_v2/install/mapping/share/mapping/launch
+[0.796s] running install_egg_info
+[0.797s] Copying ../../build/mapping/mapping.egg-info to /home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages/mapping-0.0.0-py3.10.egg-info
+[0.797s] running install_scripts
+[0.809s] writing list of installed files to '/home/chienle/Desktop/skid_robot_v2/build/mapping/install.log'
+[0.820s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/src/mapping' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping build --build-base /home/chienle/Desktop/skid_robot_v2/build/mapping/build install --record /home/chienle/Desktop/skid_robot_v2/build/mapping/install.log --single-version-externally-managed install_data --force

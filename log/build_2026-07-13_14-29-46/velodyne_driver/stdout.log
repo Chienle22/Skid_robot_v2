@@ -1,0 +1,5 @@
+[ 16%] Built target gtest
+[ 33%] Built target gtest_main
+[ 50%] Built target velodyne_input
+[ 58%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[ 75%] Built target time_test

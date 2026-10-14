@@ -202,6 +202,7 @@ class ZLA8015DDriverNode(Node):
         self.create_subscription(Float64MultiArray, input_topic, self.wheel_speed_callback, 5)
 
         self.received_kine_data = False
+        
         self.timer = self.create_timer(0.5, self.check_kine_timeout)
 
         set_velocity_mode(SLAVE_ID_L)
@@ -220,6 +221,9 @@ class ZLA8015DDriverNode(Node):
 
             left_speed_front, left_speed_back = read_motor_speed(SLAVE_ID_L)
             right_speed_front, right_speed_back = read_motor_speed(SLAVE_ID_R)
+
+            #left_speed_front, left_speed_back = read_motor_speed(SLAVE_ID_L)
+            #right_speed_front, right_speed_back = read_motor_speed(SLAVE_ID_R)
 
             '''
             # Check từng bánh bên trái
@@ -264,7 +268,7 @@ class ZLA8015DDriverNode(Node):
             self.pub.publish(stand_data)
             self.pub_left.publish(feedback_left)
             self.pub_right.publish(feedback_right)
-        
+
         self.received_kine_data = False
 
 def main(args=None):

@@ -1,0 +1,23 @@
+[0.421s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/src/localization/ekf': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ekf build --build-base /home/chienle/Desktop/skid_robot_v2/build/ekf/build install --record /home/chienle/Desktop/skid_robot_v2/build/ekf/install.log --single-version-externally-managed install_data
+[0.586s] running egg_info
+[0.586s] writing ../../../build/ekf/ekf.egg-info/PKG-INFO
+[0.586s] writing dependency_links to ../../../build/ekf/ekf.egg-info/dependency_links.txt
+[0.586s] writing entry points to ../../../build/ekf/ekf.egg-info/entry_points.txt
+[0.586s] writing requirements to ../../../build/ekf/ekf.egg-info/requires.txt
+[0.586s] writing top-level names to ../../../build/ekf/ekf.egg-info/top_level.txt
+[0.587s] reading manifest file '../../../build/ekf/ekf.egg-info/SOURCES.txt'
+[0.588s] writing manifest file '../../../build/ekf/ekf.egg-info/SOURCES.txt'
+[0.588s] running build
+[0.588s] running build_py
+[0.588s] running install
+[0.588s] running install_lib
+[0.589s] running install_data
+[0.589s] copying config/ekf.yaml -> /home/chienle/Desktop/skid_robot_v2/install/ekf/share/ekf/config
+[0.590s] running install_egg_info
+[0.591s] removing '/home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.591s] Copying ../../../build/ekf/ekf.egg-info to /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages/ekf-0.0.0-py3.10.egg-info
+[0.591s] running install_scripts
+[0.605s] Installing listener script to /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/ekf
+[0.605s] Installing talker script to /home/chienle/Desktop/skid_robot_v2/install/ekf/lib/ekf
+[0.605s] writing list of installed files to '/home/chienle/Desktop/skid_robot_v2/build/ekf/install.log'
+[0.618s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/src/localization/ekf' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ekf build --build-base /home/chienle/Desktop/skid_robot_v2/build/ekf/build install --record /home/chienle/Desktop/skid_robot_v2/build/ekf/install.log --single-version-externally-managed install_data

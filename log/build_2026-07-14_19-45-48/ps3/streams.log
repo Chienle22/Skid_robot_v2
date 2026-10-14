@@ -1,0 +1,22 @@
+[0.476s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/src/teleop/ps3': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ps3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ps3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ps3 build --build-base /home/chienle/Desktop/skid_robot_v2/build/ps3/build install --record /home/chienle/Desktop/skid_robot_v2/build/ps3/install.log --single-version-externally-managed install_data
+[0.646s] running egg_info
+[0.646s] writing ../../../build/ps3/ps3.egg-info/PKG-INFO
+[0.646s] writing dependency_links to ../../../build/ps3/ps3.egg-info/dependency_links.txt
+[0.646s] writing entry points to ../../../build/ps3/ps3.egg-info/entry_points.txt
+[0.646s] writing requirements to ../../../build/ps3/ps3.egg-info/requires.txt
+[0.646s] writing top-level names to ../../../build/ps3/ps3.egg-info/top_level.txt
+[0.647s] reading manifest file '../../../build/ps3/ps3.egg-info/SOURCES.txt'
+[0.647s] adding license file 'LICENSE'
+[0.648s] writing manifest file '../../../build/ps3/ps3.egg-info/SOURCES.txt'
+[0.648s] running build
+[0.648s] running build_py
+[0.648s] running install
+[0.648s] running install_lib
+[0.649s] running install_data
+[0.649s] running install_egg_info
+[0.650s] removing '/home/chienle/Desktop/skid_robot_v2/install/ps3/lib/python3.10/site-packages/ps3-0.0.0-py3.10.egg-info' (and everything under it)
+[0.650s] Copying ../../../build/ps3/ps3.egg-info to /home/chienle/Desktop/skid_robot_v2/install/ps3/lib/python3.10/site-packages/ps3-0.0.0-py3.10.egg-info
+[0.651s] running install_scripts
+[0.665s] Installing ps3_teleop_node script to /home/chienle/Desktop/skid_robot_v2/install/ps3/lib/ps3
+[0.665s] writing list of installed files to '/home/chienle/Desktop/skid_robot_v2/build/ps3/install.log'
+[0.678s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/src/teleop/ps3' returned '0': PYTHONPATH=/home/chienle/Desktop/skid_robot_v2/build/ps3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chienle/Desktop/skid_robot_v2/install/ps3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ps3 build --build-base /home/chienle/Desktop/skid_robot_v2/build/ps3/build install --record /home/chienle/Desktop/skid_robot_v2/build/ps3/install.log --single-version-externally-managed install_data

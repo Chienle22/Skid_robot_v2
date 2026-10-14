@@ -1,0 +1,4 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/microstrain_inertial_driver_node.dir/build.make:230: CMakeFiles/microstrain_inertial_driver_node.dir/microstrain_inertial_driver_common/src/utils/mip/ros_mip_device_main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....

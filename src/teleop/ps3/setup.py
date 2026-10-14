@@ -20,8 +20,8 @@ setup(
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-        'ps3 = low_control.ps3:main',
+    	'console_scripts': [
+            	'ps3_teleop_node = ps3.ps3:main',
         ],
     },
 )

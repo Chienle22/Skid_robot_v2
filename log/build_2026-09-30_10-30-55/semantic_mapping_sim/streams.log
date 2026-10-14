@@ -1,0 +1,41 @@
+[0.014s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/micro_ros_bringup:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim -- -j20 -l20
+[0.067s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.260s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[0.418s] -- Configuring done
+[0.423s] -- Generating done
+[0.426s] -- Build files have been written to: /home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim
+[0.476s] Built target ament_cmake_python_symlink_semantic_mapping_sim
+[0.742s] running egg_info
+[0.743s] writing semantic_mapping_sim.egg-info/PKG-INFO
+[0.743s] writing dependency_links to semantic_mapping_sim.egg-info/dependency_links.txt
+[0.743s] writing top-level names to semantic_mapping_sim.egg-info/top_level.txt
+[0.746s] reading manifest file 'semantic_mapping_sim.egg-info/SOURCES.txt'
+[0.747s] writing manifest file 'semantic_mapping_sim.egg-info/SOURCES.txt'
+[0.773s] Built target ament_cmake_python_build_semantic_mapping_sim_egg
+[0.786s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/micro_ros_bringup:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake --build /home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim -- -j20 -l20
+[0.800s] Invoking command in '/home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/micro_ros_bringup:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim
+[0.808s] -- Install configuration: ""
+[0.808s] -- Execute custom install script
+[0.809s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/share/semantic_mapping_sim/environment/pythonpath.sh
+[0.809s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/share/semantic_mapping_sim/environment/pythonpath.dsv
+[0.809s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim-0.1.0-py3.10.egg-info/PKG-INFO
+[0.810s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.811s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.811s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim-0.1.0-py3.10.egg-info/top_level.txt
+[0.811s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim/__init__.py
+[0.812s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim/mapping/__init__.py
+[0.812s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim/mapping/layer1_rgb_perception.py
+[0.812s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim/mapping/layer2_lidar_grounding.py
+[0.812s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim/mapping/layer3_semantic_graph.py
+[0.812s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim/mapping/semantic_map_builder_node.py
+[0.812s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:209 (message):
+[0.812s]   ament_cmake_symlink_install_programs() can't find
+[0.813s]   '/home/chienle/Desktop/skid_robot_v2/src/semantic_mapping_sim/semantic_mapping_sim/cloud_to_scan_node.py'
+[0.813s] Call Stack (most recent call first):
+[0.813s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331 (ament_cmake_symlink_install_programs)
+[0.813s]   cmake_install.cmake:46 (include)
+[0.813s] 
+[0.813s] [0m
+[0.813s] -- Up-to-date symlink: /home/chienle/Desktop/skid_robot_v2/install/semantic_mapping_sim/local/lib/python3.10/dist-packages/semantic_mapping_sim/semantic_map_builder_node.py
+[0.814s] Invoked command in '/home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chienle/Desktop/skid_robot_v2/install/simulation:/home/chienle/Desktop/skid_robot_v2/install/ps3:/home/chienle/Desktop/skid_robot_v2/install/odom:/home/chienle/Desktop/skid_robot_v2/install/microstrain_inertial_rqt:/home/chienle/Desktop/skid_robot_v2/install/micro_ros_bringup:/home/chienle/Desktop/skid_robot_v2/install/mapping:/home/chienle/Desktop/skid_robot_v2/install/low_control:/home/chienle/Desktop/skid_robot_v2/install/ekf:/home/chienle/Desktop/skid_robot_v2/install/bringup:/opt/ros/humble /usr/bin/cmake --install /home/chienle/Desktop/skid_robot_v2/build/semantic_mapping_sim
