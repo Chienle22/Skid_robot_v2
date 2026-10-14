@@ -1,77 +1,146 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
+"""Differential Drive Kinematics Node for ROS 2.
+
+This module converts high-level twist commands (linear and angular velocities)
+into low-level wheel velocities (RPM) for a differential drive mobile robot,
+handling hardware-specific coordinate system conversions.
+
+Author: Pham Duc Duy - https://github.com/phamduyaaaa
+
+Version:
+    1.0.0
+"""
+
+import math
+from typing import List, Optional
+
+from geometry_msgs.msg import Twist
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
-from std_msgs.msg import Float64MultiArray
-import math
+from std_msgs.msg import Int32MultiArray
 
-class KinematicNode(Node):
-    def __init__(self):
-        super().__init__('kinematic')
 
-        self.declare_parameter('wheel_base', 0.5)
-        self.declare_parameter('wheel_radius', 0.1)
-        self.declare_parameter('output_topic', 'kine_to_ZLA8015D')
-        self.declare_parameter('pi', math.pi)
-        self.declare_parameter('input_topic', 'cmd_vel')
+class KinematicsNode(Node):
+    """ROS 2 Node that calculates individual wheel RPM from geometry_msgs/Twist.
 
-        self.wheel_base = self.get_parameter('wheel_base').get_parameter_value().double_value
-        self.wheel_radius = self.get_parameter('wheel_radius').get_parameter_value().double_value
-        self.pi = self.get_parameter('pi').get_parameter_value().double_value
-        self.input_topic = self.get_parameter('input_topic').get_parameter_value().string_value
-        self.output_topic = self.get_parameter('output_topic').get_parameter_value().string_value
+    This class handles the inverse kinematics for a two-wheeled differential
+    drive robot, including scaling from linear/angular velocities to RPM and
+    accounting for hardware-level phase inversions.
 
-        self.wheel_command_publisher = self.create_publisher(Float64MultiArray, self.output_topic, 5)
-        self.cmd_vel_subscription = self.create_subscription(
+    Attributes:
+        wheel_radius (float): The radius of the robot's wheels in meters.
+        wheel_separation (float): The distance between the track centers of the
+            two drive wheels in meters.
+        subscription (rclpy.subscription.Subscription): Subscriber for the
+            '/cmd_vel' topic.
+        rpm_publisher (rclpy.publisher.Publisher): Publisher for the
+            '/wheel_rpm' topic.
+    """
+
+    def __init__(self) -> None:
+        """Initializes the KinematicsNode with parameters, publishers, and subscribers."""
+        super().__init__('differential_kinematics_node')
+        
+        # ---------------------------------------------------------
+        # PHYSICAL ROBOT PARAMETERS (Configure per robot spec)
+        # ---------------------------------------------------------
+        self.wheel_radius: float = 0.1      # Wheel radius (meters)
+        self.wheel_separation: float = 0.5    # Track width / wheelbase (meters)
+        
+        # ---------------------------------------------------------
+        # ROS 2 INTERFACES INITIALIZATION
+        # ---------------------------------------------------------
+        self.subscription = self.create_subscription(
             Twist,
-            self.input_topic,
-            self.dong_hoc,
+            '/cmd_vel',
+            self.cmd_vel_callback,
             10
         )
+        
+        self.rpm_publisher = self.create_publisher(
+            Int32MultiArray,
+            '/wheel_rpm',
+            10
+        )
+        
+        self.get_logger().info(
+            "Kinematics Node successfully initialized. "
+        )
 
-        self.wheel_speed_message = Float64MultiArray()
-        self.get_logger().info(f"Kinematic Node Started")
+    def cmd_vel_callback(self, msg: Twist) -> None:
+        """Processes incoming Twist messages and publishes calculated wheel RPMs.
 
-    def gioi_han(self, a):
-        if a >= 300:
-            a = 300
-        elif a <= -300 and a != 0:
-            a = -300
-        return a
+        Performs inverse kinematics calculation: (v, w) -> (v_left, v_right),
+        converts linear velocity to rotational speed (RPM), applies hardware
+        inversion logic for the right motor, and publishes the result.
 
-    def dong_hoc(self, gmsg):
-        linear_velocity = gmsg.linear.x
-        angular_velocity = gmsg.angular.z
+        Args:
+            msg (Twist): The target linear and angular velocity command from the
+                navigation stack.
+        """
+        # Extract linear velocity along the x-axis and angular velocity around the z-axis
+        linear_v: float = msg.linear.x
+        angular_w: float = msg.angular.z
 
-        left_wheel_rpm = ((linear_velocity - (angular_velocity * (self.wheel_base / 2))) / self.wheel_radius) * (60 / (2 * self.pi))
-        right_wheel_rpm = ((linear_velocity + (angular_velocity * (self.wheel_base / 2))) / self.wheel_radius) * (60 / (2 * self.pi))
+        # 1. Compute theoretical linear velocity for each wheel (m/s)
+        # Using standard differential drive kinematics equations
+        v_left: float = linear_v - (angular_w * self.wheel_separation / 2.0)
+        v_right: float = linear_v + (angular_w * self.wheel_separation / 2.0)
 
-        left_wheel_rpm = self.gioi_han(left_wheel_rpm)
-        right_wheel_rpm = self.gioi_han(right_wheel_rpm)
+        # 2. Convert linear velocity (m/s) to Revolutions Per Minute (RPM)
+        wheel_circumference: float = 2.0 * math.pi * self.wheel_radius
+        
+        # Avoid DivisionByZero if wheel_circumference is misconfigured
+        if wheel_circumference <= 0.0:
+            self.get_logger().error("Invalid wheel radius configured. Calculation aborted.")
+            return
 
-        self.wheel_speed_message.data = [left_wheel_rpm, right_wheel_rpm]
+        rpm_left: float = (v_left * 60.0) / wheel_circumference
+        rpm_right: float = (v_right * 60.0) / wheel_circumference
 
-        # self.get_logger().info(f"Vận tốc thẳng đặt là: {v_thang_x:.2f}")
-        # self.get_logger().info(f"Vận tốc góc đặt là: {v_quay_z:.2f}")
-        # self.get_logger().info(f"RPM trái đặt là: {omega_l:.3f}")
-        # self.get_logger().info(f"RPM phải đặt là: {omega_r:.3f}")
+        # ---------------------------------------------------------
+        # 3. HARDWARE FIRMWARE COORDINATE ALIGNMENT
+        # ---------------------------------------------------------
+        # As specified in the firmware logic (e.g., compute_rc_rpm_right in new_2.ino),
+        # the right motor requires a negative RPM value to rotate in the forward direction
+        # due to its symmetrical mounting orientation on the chassis frame.
+        rpm_right_aligned: float = rpm_right
 
-        self.wheel_command_publisher.publish(self.wheel_speed_message)
+        # Pack data into standard Int32MultiArray payload safely casting to integer
+        rpm_msg: Int32MultiArray = Int32MultiArray()
+        rpm_msg.data = [int(rpm_left), int(rpm_right_aligned)]
 
-def main(args=None):    
-    
+        # Publish the target RPM array to the actuators
+        self.rpm_publisher.publish(rpm_msg)
+        
+        # Debug logger with explicit formatting
+        self.get_logger().debug(
+            f"Cmd Received -> V: {linear_v:.2f} m/s, W: {angular_w:.2f} rad/s | "
+            f"Output RPM -> Left: {int(rpm_left)}, Right: {int(rpm_right_aligned)}"
+        )
+
+
+def main(args: Optional[List[str]] = None) -> None:
+    """Main entry point for the ROS 2 node execution loop.
+
+    Handles initialization, execution spin lock, and graceful shutdown contexts.
+
+    Args:
+        args (list of str, optional): Command line arguments passed to the node.
+    """
     rclpy.init(args=args)
-
-    node = KinematicNode()
-
+    node: KinematicsNode = KinematicsNode()
+    
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        pass
+        node.get_logger().info("KeyboardInterrupt received. Shutting down gracefully...")
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
-    node.destroy_node()
-    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

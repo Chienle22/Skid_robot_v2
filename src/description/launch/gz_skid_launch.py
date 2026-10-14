@@ -10,7 +10,7 @@ def generate_launch_description():
     pkg_name = 'simulation'
     bringup_dir = get_package_share_directory(pkg_name)
     
-    urdf_file_name = 'skid_robot_v3.urdf' 
+    urdf_file_name = 'my_skid_sim.urdf' 
     urdf_path = os.path.join(bringup_dir, 'urdf', urdf_file_name)
     
     tb3_gazebo_dir = get_package_share_directory('turtlebot3_gazebo')

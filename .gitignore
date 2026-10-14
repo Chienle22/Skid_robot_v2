@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 
 # ROS 2 generated files
 /build/
 /install/
 /log/
+=======
+__pycache__/
+*.py[cod]
+>>>>>>> 4871f60e88e922ddd92ef9268bfbad3e0caeb910
